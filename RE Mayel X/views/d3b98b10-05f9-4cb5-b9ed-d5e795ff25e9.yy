@@ -22,7 +22,8 @@
         "c00e9803-f775-4067-ba2c-ae5f0bf63f62",
         "7cf21e9e-14e7-4884-b29e-1e7be1f391cb",
         "6bcdfaee-a9fe-42d4-b1b6-9438505b3741",
-        "59c70900-3b5e-4cbd-b592-c4a9f7ca2882"
+        "59c70900-3b5e-4cbd-b592-c4a9f7ca2882",
+        "3a716ad2-0b07-46bb-8598-ae3e1b2984ce"
     ],
     "filterType": "GMSound",
     "folderName": "Sonidos",

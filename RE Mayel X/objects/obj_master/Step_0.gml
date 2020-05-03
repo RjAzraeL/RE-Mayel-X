@@ -6,7 +6,6 @@ if (keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(global.valo
 		scr_sonido(snd_pausa);
 		xo = obj_camara.x;
 		yo = obj_camara.y;
-		visible = true;
 		instance_deactivate_all(true);
 		nubechica = layer_get_id("bkg_nube_chica");
 		nube = layer_get_id("bkg_nube");
@@ -19,7 +18,6 @@ if (keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(global.valo
 	else 
 	{
 		scr_sonido(snd_pausa);
-		visible = false;
 		instance_activate_all();
 		layer_hspeed(nubechica,1);
 		layer_hspeed(nube,2);

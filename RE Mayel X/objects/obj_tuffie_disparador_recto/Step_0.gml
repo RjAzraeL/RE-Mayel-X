@@ -36,14 +36,14 @@ if (alarma >= 160)
 	{
 		var bala = instance_create_depth(x,y,-5,obj_disparador_bala);
 		bala . hspeed = 5;
-		bala . chocar = 1;
+		bala . chocar = 0;
 		bala . limitado = 1;
 	}
 	if (image_xscale < 0)
 	{
 		bala = instance_create_depth(x,y,-5,obj_disparador_bala);
 		bala . hspeed = -5;
-		bala . chocar = 1;
+		bala . chocar = 0;
 		bala . limitado = 1;
 	}
 }

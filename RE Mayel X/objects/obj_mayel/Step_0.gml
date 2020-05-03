@@ -214,25 +214,6 @@ if (angulo_llave >= 360)
 }
 #endregion
 #region Colision
-
-/*
-if (place_meeting(x+hspeed,y,obj_bloque))
-{
-	if (!place_meeting(x,y,obj_bloque))
-	{
-		//if (movimiento_vertical >= 0 or place_meeting(x+movimiento_horizontal,y,par_solido))
-		{
-			while (not place_meeting(x+sign(hspeed), y, obj_bloque))
-			{
-				x += sign(hspeed);
-			}
-			hspeed = 0;
-		}
-	}
-}
-
-x += hspeed;
-*/
 if (place_meeting(x,y + vspeed,obj_bloque))
 {
 		while (not place_meeting(x, y + sign(vspeed), obj_bloque))
@@ -264,5 +245,14 @@ if (invencible > 0)
 else 
 {
 	image_alpha = 1;
+}
+#endregion
+#region Caer
+if (y > room_height)
+{
+	scr_sonido(snd_perder);
+	scr_particula(c_white);
+	obj_master.conllave = tiene_llave;
+	instance_destroy();
 }
 #endregion

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1644541b-6741-44e8-b167-69fd28fead12",
+            "Value": {
+                "id": "74f753e0-0828-411c-84dd-e5302449c52e",
+                "resourcePath": "sprites\\spr_mayel_moneda\\spr_mayel_moneda.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17783028-96d2-4d69-9616-37dadbdb1dd5",
             "Value": {
                 "id": "65666eb9-7577-4b61-9dbd-60d711974512",
@@ -202,7 +210,7 @@
             "Key": "2fc07345-d5bc-446a-b1da-7138360f25cb",
             "Value": {
                 "id": "64196efe-f32d-4a25-8a8c-53b935dca26b",
-                "resourcePath": "fonts\\fnt_pausa\\fnt_pausa.yy",
+                "resourcePath": "fonts\\fnt_hud\\fnt_hud.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "3a716ad2-0b07-46bb-8598-ae3e1b2984ce",
+            "Value": {
+                "id": "d11c8c4b-51ce-4bbe-8350-c95a79f4f3e5",
+                "resourcePath": "sounds\\snd_momia\\snd_momia.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3b0bc272-2705-4309-9dbe-68dedf22961b",
             "Value": {
                 "id": "6481c390-ad60-4ce8-9a06-89b6a49b9e09",
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "4229d241-ac9b-4168-8c5c-cd3a29f942b8",
+            "Value": {
+                "id": "4f8a5880-d659-42fd-a6fd-d83a4776c843",
+                "resourcePath": "sprites\\spr_mayel_vida\\spr_mayel_vida.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43225306-4a51-43ec-8095-6acd2db323d6",
             "Value": {
                 "id": "bdcf4eb3-d24b-44d4-92fb-c79f02eb0211",
@@ -347,6 +371,14 @@
             "Value": {
                 "id": "d9df32bf-8639-4193-bdb0-89d18b6e39cc",
                 "resourcePath": "sprites\\spr_caramelo\\spr_caramelo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44fb6f37-fddf-4f29-81ca-7718998b67e6",
+            "Value": {
+                "id": "589240f4-738e-4f57-92ca-157cb18d7f91",
+                "resourcePath": "sprites\\spr_mayel_icono\\spr_mayel_icono.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -631,6 +663,14 @@
             }
         },
         {
+            "Key": "7ee5cd98-988b-480d-9afa-56faa97ea317",
+            "Value": {
+                "id": "39de68af-710d-492e-889c-63c9f7da6851",
+                "resourcePath": "views\\7ee5cd98-988b-480d-9afa-56faa97ea317.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7ef4ca11-ec91-4cd2-95e5-55fe6188f376",
             "Value": {
                 "id": "63af8dd5-b2fb-4407-af4b-7ee4bfbac854",
@@ -676,6 +716,14 @@
                 "id": "9afe5b9e-d517-4baa-8a6f-188f98383cf5",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "875088dd-6cf1-4d5b-a6fa-8b75c6202dd7",
+            "Value": {
+                "id": "623e3eb1-6044-408d-a8db-8c9382e8968a",
+                "resourcePath": "datafiles_yy\\Musica\\mus_zona3.ogg.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -927,6 +975,14 @@
             }
         },
         {
+            "Key": "a4215b33-0a34-48d1-aaf4-2567571d6fbc",
+            "Value": {
+                "id": "7952dfaf-f277-43e2-8909-fa72105266d6",
+                "resourcePath": "sprites\\spr_mayel_gema\\spr_mayel_gema.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a683cc99-cefb-46a7-a55d-df3da7946afd",
             "Value": {
                 "id": "003901cb-1dc1-4fb0-af3b-6275faf55abd",
@@ -1059,6 +1115,14 @@
             "Value": {
                 "id": "c1255625-3a20-4aca-8ba7-7be15a8b9937",
                 "resourcePath": "sprites\\spr_mayel_saltando_caida\\spr_mayel_saltando_caida.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4b0aafe-cdf7-46b2-b958-730870d14a0e",
+            "Value": {
+                "id": "45f10a20-b516-4906-abc8-255cefc092c0",
+                "resourcePath": "sprites\\spr_mayel_gema_fondo\\spr_mayel_gema_fondo.yy",
                 "resourceType": "GMSprite"
             }
         },

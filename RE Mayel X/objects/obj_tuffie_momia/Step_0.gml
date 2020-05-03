@@ -1,5 +1,7 @@
+#region Visible
 if (oculto == 0)
 {
+	visible = true;
 	#region Gravedad
 vspeed += global.gravedad;
 #endregion
@@ -45,9 +47,11 @@ if (estirar == 2)
 }
 #endregion
 }
+#endregion
 #region Oculto
 if (oculto == 1)
 {
+	visible = false;
 	if (instance_number(obj_mayel) != 0)
 	{
 		if (distance_to_object(obj_mayel) < 80)
@@ -64,6 +68,7 @@ if (oculto == 1)
 			subir = 0;
 			oculto = 0;
 			depth = 0;
+			scr_sonido(snd_momia);
 			scr_particula(c_yellow);
 		}
 	}

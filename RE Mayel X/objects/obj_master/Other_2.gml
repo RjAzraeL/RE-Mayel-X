@@ -1,10 +1,15 @@
 scr_data_mayels();
+depth = -1000;
+x = -32;
+y = -32;
 xo = 0;
 yo = 0;
 valor = -1; 
 volver = 0;
 conllave = 0;
 global.moneda = 0;
+global.gema = 0;
+global.gema_local = 0;
 global.gema = 0;
 global.valor = -1;
 global.pausa = 0;

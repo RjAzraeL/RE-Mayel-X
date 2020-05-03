@@ -1,11 +1,10 @@
-
 paso = 0;
 instance_create_depth(x,y,0,obj_camara);
 depth = -6;
 velocidad = 4;
 salto = 9;
 estado = "Parado";
-invencible = 0;
+invencible = 30;
 fase_salto = 0;
 sprCaminando = spr_mayel_caminando;
 sprParado = spr_mayel_parado;
