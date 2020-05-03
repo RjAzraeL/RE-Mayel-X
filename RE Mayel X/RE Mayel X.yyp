@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0bebc22d-72d5-456b-9ada-ac86a0741332",
+            "Value": {
+                "id": "6467a94d-03d4-44c6-9bfa-c6bdc8c447fd",
+                "resourcePath": "objects\\obj_tuffie_invertido\\obj_tuffie_invertido.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0cbfd01c-8ce5-4691-8d0e-5f8a5700ed89",
             "Value": {
                 "id": "c02ccacc-c3fa-4e37-9a04-3383cbfc2b46",
@@ -212,6 +220,14 @@
                 "id": "8e6108e5-649c-43b1-acf0-1b1693ac4e02",
                 "resourcePath": "objects\\obj_lava\\obj_lava.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3552fade-c693-4fec-8370-af78c8b96fd0",
+            "Value": {
+                "id": "f9716ca9-ddc2-44e7-b573-59ea56638eab",
+                "resourcePath": "sprites\\spr_particula_zona\\spr_particula_zona.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -375,6 +391,22 @@
             }
         },
         {
+            "Key": "573eedcc-379f-41be-bf05-9d1a99bacef3",
+            "Value": {
+                "id": "e16b034a-6c60-421d-92e4-310dfa8eebd4",
+                "resourcePath": "scripts\\scr_particula_zona\\scr_particula_zona.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "58b325e4-65ac-4515-9b34-531fb9eb7867",
+            "Value": {
+                "id": "054bc24b-e8b0-4aa9-8c7f-2b00fbce9ba5",
+                "resourcePath": "sprites\\spr_ene_tuffie_momia\\spr_ene_tuffie_momia.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59598886-84af-4cc4-9468-58b6fed318d8",
             "Value": {
                 "id": "ac21f7d5-dad8-45aa-b0d6-958c26785c7a",
@@ -388,6 +420,14 @@
                 "id": "8a85a3c9-7321-4605-870d-7251f9d775fa",
                 "resourcePath": "sounds\\snd_disparo_enemigos\\snd_disparo_enemigos.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5a607186-07e7-4e90-9e0f-c158702fd27f",
+            "Value": {
+                "id": "8e67c093-2dcc-4fcb-a005-aaa3ae35cf2b",
+                "resourcePath": "objects\\obj_particula_zona\\obj_particula_zona.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -492,6 +532,14 @@
                 "id": "1eb78cbb-975c-447f-80e4-4c58ac9d48f2",
                 "resourcePath": "views\\735c5c14-88f9-497d-becc-d8024e5240fa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7394153a-9dca-4c71-b8a8-10ecd24711a6",
+            "Value": {
+                "id": "2832e1b2-1f74-4223-99aa-5144211ad742",
+                "resourcePath": "sprites\\spr_ene_tuffie_invertido\\spr_ene_tuffie_invertido.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -780,6 +828,14 @@
                 "id": "1bbf4ffa-9d37-4de7-9868-be1c52dced82",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a1bf3a7c-c1aa-4b74-bb02-7e35b738fba1",
+            "Value": {
+                "id": "1dfa6acc-5fd0-4cfa-be4a-93f53fe4e3e8",
+                "resourcePath": "objects\\obj_tuffie_momia\\obj_tuffie_momia.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1327,7 +1383,8 @@
         "af8f8254-bf88-47dc-bc73-f224b3a6fc0d",
         "3df2e98d-839f-45c9-a374-075775a2b334",
         "9010daf9-2354-43a9-9462-8330cc779a51",
-        "f5775d09-077c-4f45-820a-1ffb3c7688ff"
+        "f5775d09-077c-4f45-820a-1ffb3c7688ff",
+        "573eedcc-379f-41be-bf05-9d1a99bacef3"
     ],
     "tutorial": ""
 }

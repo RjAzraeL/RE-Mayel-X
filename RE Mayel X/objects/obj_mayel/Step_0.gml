@@ -24,6 +24,7 @@ if (keyboard_check(btnder) or gamepad_axis_value(valor,gp_axislh))
 if (paso >= 25 and place_meeting(x,y+1,obj_bloque))
 {
 	paso = 0;
+	scr_particula_zona(28,8);
 	scr_sonido(snd_paso);
 }
 if (keyboard_check_released(btnder) or keyboard_check_released(btnizq))
@@ -143,6 +144,7 @@ if (estado =="Cayendo")
 	if (sprite_index != sprSaltando_final)
 	{
 		scr_sonido(snd_caida);
+		scr_particula_zona(28,8);
 		sprite_index = sprSaltando_final;
 		image_index = 0;
 		image_speed = 6;

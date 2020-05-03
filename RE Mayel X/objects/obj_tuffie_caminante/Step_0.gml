@@ -27,6 +27,12 @@ if (place_meeting(x,y,par_arma))
 #endregion
 #region Moverse
 hspeed = velocidad;
+load++;
+if (load >= 70)
+{
+	scr_particula_zona(12,6);
+	load = 0;
+}
 if (place_meeting(x+velocidad,y,obj_bloque))
 {
 	velocidad *= -1;

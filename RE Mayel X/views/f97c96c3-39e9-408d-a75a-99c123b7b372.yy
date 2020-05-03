@@ -18,7 +18,8 @@
         "b1dbe296-7d4e-496b-947e-98e4efcea103",
         "d8ab5bc8-a2d4-4ca2-8ca9-20051bd0b7ee",
         "8f254fcd-d833-43e2-9409-5c381df3ff91",
-        "0cbfd01c-8ce5-4691-8d0e-5f8a5700ed89"
+        "0cbfd01c-8ce5-4691-8d0e-5f8a5700ed89",
+        "3552fade-c693-4fec-8370-af78c8b96fd0"
     ],
     "filterType": "GMSprite",
     "folderName": "Otros",
