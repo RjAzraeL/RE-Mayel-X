@@ -31,10 +31,6 @@ if (place_meeting(x+velocidad,y,obj_bloque))
 {
 	velocidad *= -1;
 }
-if (place_meeting(x+16*image_xscale,y,obj_tuffie_caminante))
-{
-	velocidad *= -1;
-}
 if (hspeed > 0)
 {
 	image_xscale = 1;
