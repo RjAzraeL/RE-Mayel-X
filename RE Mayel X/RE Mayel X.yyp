@@ -743,14 +743,6 @@
             }
         },
         {
-            "Key": "9a7c03ba-f0fb-4fe8-9b61-c986ca12d835",
-            "Value": {
-                "id": "6d96842f-6df5-435e-94d3-a9d5077cebf0",
-                "resourcePath": "objects\\obj_hola\\obj_hola.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9ab0d89b-377d-4be9-9e82-85c36c668f81",
             "Value": {
                 "id": "179bb3b6-3008-4b86-b2eb-b77a463199a7",
