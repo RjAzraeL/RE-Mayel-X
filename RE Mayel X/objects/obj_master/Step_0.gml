@@ -52,3 +52,9 @@ if (global.pausa == 0)
 	}
 }
 #endregion
+#region Lluvia
+if (global.zona == 4)
+{
+	effect_create_above(ef_rain,0,0,0,make_color_rgb(64,165,176));
+}
+#endregion

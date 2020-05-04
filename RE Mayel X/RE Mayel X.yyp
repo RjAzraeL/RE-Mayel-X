@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "42dc3044-ec4d-4c9e-8f1e-06575493b3bc",
+            "Value": {
+                "id": "23c85706-797e-4dae-8991-1086b2973678",
+                "resourcePath": "sprites\\spr_ene_duende_horizontal\\spr_ene_duende_horizontal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43225306-4a51-43ec-8095-6acd2db323d6",
             "Value": {
                 "id": "bdcf4eb3-d24b-44d4-92fb-c79f02eb0211",
@@ -428,6 +436,14 @@
                 "id": "5e8583e4-0f8a-4460-8dd1-bf03e9995c01",
                 "resourcePath": "rooms\\rm_n_a4\\rm_n_a4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4aa6fa0c-f40a-4dd6-bfdb-5cd826b69ac6",
+            "Value": {
+                "id": "dd60efd4-2755-4b9c-9396-c81420f99e65",
+                "resourcePath": "objects\\obj_duende_horizontal\\obj_duende_horizontal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1127,6 +1143,14 @@
             }
         },
         {
+            "Key": "b0eda766-b89c-47cf-9617-8f3969451fee",
+            "Value": {
+                "id": "a78ff7e9-6b85-4aa2-a75b-2da6340b114b",
+                "resourcePath": "sprites\\spr_ene_tuffier_invertido\\spr_ene_tuffier_invertido.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1dbe296-7d4e-496b-947e-98e4efcea103",
             "Value": {
                 "id": "a1bf5ae7-8f07-483c-89c4-12dde324a591",
@@ -1603,6 +1627,14 @@
             "Value": {
                 "id": "921f45ff-ebc5-44fc-b191-2eb0dbf60a07",
                 "resourcePath": "objects\\obj_disparador_bala1\\obj_disparador_bala1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb4c2368-48cd-4767-aa16-c0bddccbdc79",
+            "Value": {
+                "id": "c57cd0bb-af77-4b9b-a8e2-96a5a079f025",
+                "resourcePath": "objects\\obj_tuffie_invertido_duro\\obj_tuffie_invertido_duro.yy",
                 "resourceType": "GMObject"
             }
         },

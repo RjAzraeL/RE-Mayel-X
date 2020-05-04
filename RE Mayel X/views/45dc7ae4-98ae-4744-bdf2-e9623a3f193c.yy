@@ -9,9 +9,11 @@
         "7394153a-9dca-4c71-b8a8-10ecd24711a6",
         "5c5b0e26-329d-453e-bc93-c832fce54705",
         "af3c2dae-ca57-49ad-a528-f034fca78086",
+        "b0eda766-b89c-47cf-9617-8f3969451fee",
         "e1e57794-fcdb-4df3-bb48-cfc2a83739df",
         "ffb70bd8-4efa-48a1-89a1-df5be9ab7697",
-        "c119a7fd-cde4-41dc-a405-a8ec64c00d6f"
+        "c119a7fd-cde4-41dc-a405-a8ec64c00d6f",
+        "42dc3044-ec4d-4c9e-8f1e-06575493b3bc"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemigos",
