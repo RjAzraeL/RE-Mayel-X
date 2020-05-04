@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "59ce487f-cc16-47ed-9cad-c03f9667a2b5",
+            "Value": {
+                "id": "a9b72b47-64df-472c-b2c2-ef9f01c8908f",
+                "resourcePath": "datafiles_yy\\Musica\\mus_zona4.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5a607186-07e7-4e90-9e0f-c158702fd27f",
             "Value": {
                 "id": "8e67c093-2dcc-4fcb-a005-aaa3ae35cf2b",
@@ -1524,6 +1532,14 @@
                 "id": "364b4d8e-b48a-4363-b6a7-c95c28c29bf3",
                 "resourcePath": "sprites\\spr_disparador\\spr_disparador.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ecfdaaf4-d8a6-4db2-8f00-72af458243fb",
+            "Value": {
+                "id": "c84a3b4a-2447-4072-a33c-688c44d0313a",
+                "resourcePath": "views\\ecfdaaf4-d8a6-4db2-8f00-72af458243fb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

@@ -20,3 +20,10 @@ if (room == rm_n_c1)
 	script_execute(scr_musica,mus3);
 	scr_musica(mus3);
 }
+if (room == rm_n_d1)
+{
+	global.zona = 4;
+	var mus4 = audio_create_stream("Musica/mus_zona4.ogg");
+	script_execute(scr_musica,mus4);
+	scr_musica(mus4);
+}
