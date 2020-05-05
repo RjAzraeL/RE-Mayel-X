@@ -5,6 +5,7 @@ image_speed = 0;
 image_index = 0;
 carga_pos = 0;
 limitado = 0;
+diagonal = 0;
 
 if (instance_number(obj_mayel) != 0)
 {
