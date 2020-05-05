@@ -56,5 +56,14 @@ if (global.pausa == 0)
 if (global.zona == 4)
 {
 	effect_create_above(ef_rain,0,0,0,make_color_rgb(64,165,176));
+	if (trueno != 0)
+	{
+		trueno--;
+	}
+	else 
+	{
+		instance_create_depth(x,y,-1000000,obj_trueno);
+		trueno = round(random_range(150,400));
+	}
 }
 #endregion

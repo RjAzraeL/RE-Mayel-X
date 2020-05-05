@@ -26,4 +26,5 @@ if (room == rm_n_d1)
 	var mus4 = audio_create_stream("Musica/mus_zona4.ogg");
 	script_execute(scr_musica,mus4);
 	scr_musica(mus4);
+	trueno = 30;
 }

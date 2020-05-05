@@ -6,6 +6,7 @@ xo = 0;
 yo = 0;
 valor = -1; 
 volver = 0;
+trueno = 0;
 conllave = 0;
 global.moneda = 0;
 global.gema = 0;
