@@ -10,7 +10,9 @@
         "1fd18bb7-f063-46bc-a30f-2716b35f3890",
         "e53711c8-73b0-4c20-a58f-4dcbffbcfd7a",
         "459879fe-d12b-4e8a-9eec-6dadbb934295",
-        "ace78026-ef8d-431f-bcc8-d13e2d1ac156"
+        "ace78026-ef8d-431f-bcc8-d13e2d1ac156",
+        "53a91a84-6a54-42b5-8ad1-91aa2b40634b",
+        "f5958eb4-231e-4603-a696-8ec15c31daac"
     ],
     "filterType": "GMTileSet",
     "folderName": "tilesets",

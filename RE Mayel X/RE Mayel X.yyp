@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "32efad90-8524-4048-b84f-e7ad539332ff",
+            "Value": {
+                "id": "217a0f5d-f349-4a5a-a5d9-9acbde20c1ac",
+                "resourcePath": "sprites\\spr_tile_pasto\\spr_tile_pasto.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "352d74ba-a5be-4d08-8b47-62059002a107",
             "Value": {
                 "id": "8e6108e5-649c-43b1-acf0-1b1693ac4e02",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "47b81942-a836-4561-b2ad-8a350ace3794",
+            "Value": {
+                "id": "477c1074-1c77-4547-a4d1-eb2c8990b5fe",
+                "resourcePath": "sprites\\spr_autotile4\\spr_autotile4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47fd8e72-fd6c-4583-b37d-f4df41a55e98",
             "Value": {
                 "id": "5e8583e4-0f8a-4460-8dd1-bf03e9995c01",
@@ -484,6 +500,14 @@
                 "id": "286ecbaf-9d70-4e74-9113-046eda4db458",
                 "resourcePath": "views\\538728e3-d201-4f11-9eb3-ab8431ac14f5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "53a91a84-6a54-42b5-8ad1-91aa2b40634b",
+            "Value": {
+                "id": "7772477c-86d4-4ca3-a943-1a4a315dac20",
+                "resourcePath": "tilesets\\tl_auto4\\tl_auto4.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -564,6 +588,14 @@
                 "id": "e5ef8d42-6433-43b1-96e1-a021b793be37",
                 "resourcePath": "sprites\\spr_mascara32x64\\spr_mascara32x64.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d387611-880a-4495-8b11-fb90fa631ca1",
+            "Value": {
+                "id": "585bfb8b-7c73-4973-8939-2056e31d8f0b",
+                "resourcePath": "objects\\obj_disparador2\\obj_disparador2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1660,6 +1692,14 @@
                 "id": "8076f4d0-151d-4cf5-a865-711247c18773",
                 "resourcePath": "scripts\\scr_sonido\\scr_sonido.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f5958eb4-231e-4603-a696-8ec15c31daac",
+            "Value": {
+                "id": "fe734f88-dbd5-45af-86cd-5349054fa751",
+                "resourcePath": "tilesets\\tl_special\\tl_special.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
