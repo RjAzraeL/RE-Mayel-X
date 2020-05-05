@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "ace78026-ef8d-431f-bcc8-d13e2d1ac156",
+            "Value": {
+                "id": "3f0c9cac-fa0d-4911-a721-2ed10182aa3d",
+                "resourcePath": "tilesets\\tl_auto3\\tl_auto3.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "ada3249b-7eab-4051-b7ce-cb252cb0635e",
             "Value": {
                 "id": "e26b8703-5780-4c56-a2c4-d34c00e08f03",
@@ -1428,6 +1436,14 @@
                 "id": "1191d928-ea53-4723-9820-d85bcee30bdf",
                 "resourcePath": "objects\\obj_tuffie_caminante\\obj_tuffie_caminante.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d555f6dc-5be5-4f38-9cf2-9453e1cd5441",
+            "Value": {
+                "id": "9499ae8d-4ff9-49be-802d-e30c019f95d7",
+                "resourcePath": "sprites\\spr_autotile3\\spr_autotile3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
