@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "047a6ccb-0404-4eac-aa5c-cbe5e2c2a227",
+            "Value": {
+                "id": "3da90079-782f-4938-9723-eac2c7c85ad2",
+                "resourcePath": "rooms\\rm_n_d3\\rm_n_d3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "053aac64-9f69-407b-affe-17f3cfea5198",
             "Value": {
                 "id": "fa2526ea-95e3-4795-89cb-44647178df23",
@@ -951,6 +959,14 @@
             }
         },
         {
+            "Key": "9b17d8ab-32c1-49df-b3f8-8c443d15c5ff",
+            "Value": {
+                "id": "62d719cf-c3b1-43f1-b447-1a14188e33d5",
+                "resourcePath": "rooms\\rm_n_d4\\rm_n_d4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9bbc8764-1d3f-4eca-b385-a17402a116d1",
             "Value": {
                 "id": "60458f83-6467-4cad-9e49-7c94f30d73a2",
@@ -1043,6 +1059,14 @@
             "Value": {
                 "id": "c3da6df4-7d71-4e7f-8f32-82f226b54252",
                 "resourcePath": "sprites\\spr_nube_chica\\spr_nube_chica.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a7695e4f-8b15-4033-88ab-0ceb43208514",
+            "Value": {
+                "id": "3b6b33a2-019d-4dc9-bccd-3f7e9046565a",
+                "resourcePath": "sprites\\spr_autotile\\spr_autotile.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1527,6 +1551,14 @@
             }
         },
         {
+            "Key": "e53711c8-73b0-4c20-a58f-4dcbffbcfd7a",
+            "Value": {
+                "id": "d8a7d7a4-c020-4a74-bd6b-808a91112f83",
+                "resourcePath": "tilesets\\tl_auto1\\tl_auto1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "e6724458-98b3-4673-a5e3-098984174fd8",
             "Value": {
                 "id": "5670bcab-0d2c-4bf1-9773-62b8cca9bcd7",
@@ -1644,6 +1676,14 @@
                 "id": "48414708-3bbd-4e0a-b720-133974c01f12",
                 "resourcePath": "sprites\\spr_nes_bezel\\spr_nes_bezel.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe6bab14-659f-4a53-80e8-d245f68ca41c",
+            "Value": {
+                "id": "104f2998-2a97-4c9b-9793-d78a34721f4f",
+                "resourcePath": "rooms\\rm_n_d2\\rm_n_d2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
