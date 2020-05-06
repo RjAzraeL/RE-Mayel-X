@@ -234,7 +234,7 @@
             "Key": "2fc07345-d5bc-446a-b1da-7138360f25cb",
             "Value": {
                 "id": "64196efe-f32d-4a25-8a8c-53b935dca26b",
-                "resourcePath": "fonts\\fnt_hud\\fnt_hud.yy",
+                "resourcePath": "fonts\\fnt_hud1\\fnt_hud1.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1340,6 +1340,14 @@
                 "id": "3c678440-ab15-4d22-9a63-e009ccf4a732",
                 "resourcePath": "sprites\\spr_herramienta_boomerang\\spr_herramienta_boomerang.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf511e53-5e13-4cda-8a73-7ee4780889be",
+            "Value": {
+                "id": "ff541839-2e8e-4737-8133-edb5c9e67f7b",
+                "resourcePath": "fonts\\fnt_hud2\\fnt_hud2.yy",
+                "resourceType": "GMFont"
             }
         },
         {
