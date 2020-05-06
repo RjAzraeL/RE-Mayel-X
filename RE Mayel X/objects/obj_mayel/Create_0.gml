@@ -41,11 +41,12 @@ for(var i = 0; i < numPads; i++;)
     }
 }
 
-btnarr = vk_up;
-btnizq = vk_left;
-btnder = vk_right;
-btndis1 = ord("Z");
-btndis2 = ord("X");
+btnarr = obj_master.btnarr;
+btnizq = obj_master.btnizq;
+btnder = obj_master.btnder;
+btnaba = obj_master.btnaba
+btndis1 = obj_master.btndis1;
+btndis2 = obj_master.btndis2;
 
 scr_set_mayel(tipo);
 

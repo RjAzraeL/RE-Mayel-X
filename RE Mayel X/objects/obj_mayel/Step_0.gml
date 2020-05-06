@@ -223,19 +223,6 @@ if (place_meeting(x,y + vspeed,obj_bloque))
 		vspeed = 0;
 }
 #endregion
-#region Pantalla
-if (keyboard_check_pressed(vk_f4))
-{
-	if window_get_fullscreen()
-	{
-		window_set_fullscreen(false);
-	}
-	else
-	{
-		window_set_fullscreen(true);
-	}
-}
-#endregion
 #region Invencible
 if (invencible > 0)
 {
@@ -254,5 +241,13 @@ if (y > room_height)
 	scr_particula(c_white);
 	obj_master.conllave = tiene_llave;
 	instance_destroy();
+}
+#endregion
+#region Salir
+if (keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(valor,gp_select))
+{
+	obj_master.nivelactual = 0;
+	global.zona = 0;
+	room_goto(rm_mapa);
 }
 #endregion

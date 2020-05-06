@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0ceabef3-fcb5-47be-9ae9-e0179550eb0b",
+            "Value": {
+                "id": "e4b572c8-57bb-48d7-a5af-68cb63e3bedb",
+                "resourcePath": "objects\\obj_particula_volcan\\obj_particula_volcan.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d3edadc-4ea9-4cb1-b1f7-0d9153c37880",
             "Value": {
                 "id": "50ea1b4c-8097-4f3e-bd60-2af1bb9fd0c7",
@@ -108,6 +116,14 @@
                 "id": "32f770b3-4c03-43f3-be9f-a309bd2fdb17",
                 "resourcePath": "rooms\\rm_n_b2\\rm_n_b2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "0ffa9258-6b65-48e6-a7db-314dc77b7760",
+            "Value": {
+                "id": "61dbe2cb-4998-4469-81d0-31024e1b0bee",
+                "resourcePath": "objects\\obj_mapa_mayel\\obj_mapa_mayel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "47bbd3ef-bd9f-43e5-9a08-1b06db975b30",
+            "Value": {
+                "id": "31907d22-4f28-469e-9588-e254ab2610fc",
+                "resourcePath": "views\\47bbd3ef-bd9f-43e5-9a08-1b06db975b30.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "47fd8e72-fd6c-4583-b37d-f4df41a55e98",
             "Value": {
                 "id": "5e8583e4-0f8a-4460-8dd1-bf03e9995c01",
@@ -644,6 +668,14 @@
                 "id": "c5753c2c-9b0f-429f-aaad-aa99fdbdc14b",
                 "resourcePath": "sprites\\spr_mascara32x24\\spr_mascara32x24.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "657edefc-d8f5-4727-bb06-1e44940677de",
+            "Value": {
+                "id": "3f0151f9-e277-422b-9640-a9c51fab35bd",
+                "resourcePath": "rooms\\rm_mapa\\rm_mapa.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1287,6 +1319,14 @@
             }
         },
         {
+            "Key": "b3987208-7435-431b-a242-a96bd4b71da9",
+            "Value": {
+                "id": "2bcfbf0e-ce71-40c7-a6a7-c24ac6f15d51",
+                "resourcePath": "datafiles_yy\\Musica\\mus_mapa.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "b4b0aafe-cdf7-46b2-b958-730870d14a0e",
             "Value": {
                 "id": "45f10a20-b516-4906-abc8-255cefc092c0",
@@ -1420,6 +1460,14 @@
                 "id": "3c0a53fe-d308-4b20-aa8a-3a5e570b09c9",
                 "resourcePath": "tilesets\\tl_base2\\tl_base2.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "c9f0b4b0-deba-4050-9285-ccf1a8568e7b",
+            "Value": {
+                "id": "2f51ee95-33bc-4c3d-a0d4-f4caeca4a95e",
+                "resourcePath": "objects\\obj_boton_mapa\\obj_boton_mapa.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1599,6 +1647,14 @@
             }
         },
         {
+            "Key": "d9bb3d4b-3942-49a2-8e3d-2bb2bb29e2eb",
+            "Value": {
+                "id": "17623d19-13a8-4aae-974a-1065d79bd0fd",
+                "resourcePath": "scripts\\scr_data_zona\\scr_data_zona.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dafcb931-e4bc-45b8-8379-37ab46b04771",
             "Value": {
                 "id": "7f9571d4-5b4e-4067-8d4a-eb5c1d5f0b0a",
@@ -1636,6 +1692,14 @@
                 "id": "46644a80-62d3-4b3e-ab9e-36504b499f68",
                 "resourcePath": "sounds\\snd_puerta_abierta\\snd_puerta_abierta.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "de4b3142-393b-42b4-be05-c0389fa471ac",
+            "Value": {
+                "id": "eec41e53-7b05-4eb6-82bc-82ef0c20df29",
+                "resourcePath": "fonts\\fnt_mapa\\fnt_mapa.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1735,6 +1799,14 @@
             }
         },
         {
+            "Key": "ec0774d6-cbc2-4db9-a5b1-218d2c99e1b9",
+            "Value": {
+                "id": "83206934-0d5c-4e2b-9f83-508c797ed9e2",
+                "resourcePath": "scripts\\scr_data_nivel\\scr_data_nivel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ecfdaaf4-d8a6-4db2-8f00-72af458243fb",
             "Value": {
                 "id": "c84a3b4a-2447-4072-a33c-688c44d0313a",
@@ -1748,6 +1820,14 @@
                 "id": "c5d5cadd-55bb-4a68-a864-68bb950b46da",
                 "resourcePath": "sounds\\snd_lanza_martillo\\snd_lanza_martillo.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f234eecb-9185-4a19-8af0-12e98be991e1",
+            "Value": {
+                "id": "8269973f-8c80-41f1-935b-70bd2bbd64e7",
+                "resourcePath": "paths\\pth_ceniza\\pth_ceniza.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -1780,6 +1860,14 @@
                 "id": "fe734f88-dbd5-45af-86cd-5349054fa751",
                 "resourcePath": "tilesets\\tl_special\\tl_special.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "f5c6c9e1-bf16-4a35-910c-9a2bd71d3216",
+            "Value": {
+                "id": "37cd393d-3833-42b0-a594-ff798e359e79",
+                "resourcePath": "sprites\\spr_particula_lava\\spr_particula_lava.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1857,6 +1945,8 @@
     ],
     "script_order": [
         "b022b6d3-d901-49f5-aae8-e77b89839e01",
+        "ec0774d6-cbc2-4db9-a5b1-218d2c99e1b9",
+        "d9bb3d4b-3942-49a2-8e3d-2bb2bb29e2eb",
         "8089adb2-0f18-42b7-9ec1-910671ce041c",
         "e9998d32-4cd9-49bd-8b54-27afdc33a288",
         "dafcb931-e4bc-45b8-8379-37ab46b04771",
