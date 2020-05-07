@@ -9,9 +9,9 @@ btnder = obj_master.btnder;
 btnaba = obj_master.btnaba
 btndis1 = obj_master.btndis1;
 btndis2 = obj_master.btndis2;
-velocidad = 0.5;
+velocidad = 2;
 depth = -5;
-scala = 0.1;
+scala = 0.5;
 image_xscale = scala;
 estado = "Parado";
 
