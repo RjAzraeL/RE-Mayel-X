@@ -1,11 +1,11 @@
 {
-    "id": "76e0782c-73de-4dad-a5e9-afd924e7d1a6",
+    "id": "c26e1f1c-c237-404d-8e4c-9c3005cb87c4",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tl_auto5",
+    "name": "tl_auto6",
     "auto_tile_sets": [
         {
-            "id": "5a196ceb-4655-4de4-8c59-0359b8bc62f7",
+            "id": "b4e75ab5-1703-4db9-bcd4-c3a51991d955",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": true,
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "id": "054f2cf8-2386-4d7f-8c0f-a0fde52a7c96",
+            "id": "328ac7d7-dfdb-4a38-8d6d-61de1e7d0c14",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": true,
@@ -117,7 +117,7 @@
             ]
         },
         {
-            "id": "a596835d-06de-4b93-ac8a-0eea08639ec0",
+            "id": "639dbd7c-6d46-46bd-a164-e204f6bd2d6e",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
@@ -173,7 +173,7 @@
             ]
         },
         {
-            "id": "748429f6-e4c0-4293-b870-0c47d64072c6",
+            "id": "55dce6f7-2e89-4b02-8f39-e4275e9732a7",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
@@ -240,7 +240,7 @@
     "out_columns": 14,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
-    "spriteId": "75741341-2022-4854-94e1-45778364fe30",
+    "spriteId": "c323ff6a-c5ab-4424-835b-44ac1cec5ed7",
     "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {

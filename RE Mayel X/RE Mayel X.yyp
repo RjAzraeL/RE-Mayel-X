@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "76e0782c-73de-4dad-a5e9-afd924e7d1a6",
+            "Value": {
+                "id": "dfca7507-a4c9-4655-b133-d69d2312ecca",
+                "resourcePath": "tilesets\\tl_auto5\\tl_auto5.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "76e3e1ea-e302-4d06-a0fd-46abdab47809",
             "Value": {
                 "id": "8a71a8f8-638d-40e4-8842-873a0395504a",
@@ -1450,7 +1458,7 @@
             "Key": "c26e1f1c-c237-404d-8e4c-9c3005cb87c4",
             "Value": {
                 "id": "68b1e3a0-16b9-49bc-8726-bd3690d62add",
-                "resourcePath": "tilesets\\tl_auto5\\tl_auto5.yy",
+                "resourcePath": "tilesets\\tl_auto6\\tl_auto6.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -1460,6 +1468,14 @@
                 "id": "89309c8c-db78-49ae-8248-1970f62ba3f3",
                 "resourcePath": "objects\\obj_puerta\\obj_puerta.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c323ff6a-c5ab-4424-835b-44ac1cec5ed7",
+            "Value": {
+                "id": "d65a57d9-f0dd-4a74-bc3f-1543a3b90868",
+                "resourcePath": "sprites\\spr_autotile6\\spr_autotile6.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
