@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "75741341-2022-4854-94e1-45778364fe30",
+            "Value": {
+                "id": "124f8072-b12a-4bbb-af53-34caa5070fc7",
+                "resourcePath": "sprites\\spr_autotile5\\spr_autotile5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76e3e1ea-e302-4d06-a0fd-46abdab47809",
             "Value": {
                 "id": "8a71a8f8-638d-40e4-8842-873a0395504a",
@@ -1436,6 +1444,14 @@
                 "id": "8f309d80-ce6f-4a8d-a0b6-05792bbaa1af",
                 "resourcePath": "objects\\obj_herramienta_boomerang\\obj_herramienta_boomerang.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c26e1f1c-c237-404d-8e4c-9c3005cb87c4",
+            "Value": {
+                "id": "68b1e3a0-16b9-49bc-8726-bd3690d62add",
+                "resourcePath": "tilesets\\tl_auto5\\tl_auto5.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
