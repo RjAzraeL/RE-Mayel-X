@@ -24,25 +24,25 @@ if (place_meeting(x,y,par_arma))
 #endregion
 #region Disparar
 alarma++;
-if (alarma == 140)
+if (alarma == 250)
 {
 	image_index = 1;
 }
-if (alarma >= 160)
+if (alarma >= 270)
 {
 	image_index = 0;
 	alarma = 0;
 	if (image_xscale > 0)
 	{
 		var bala = instance_create_depth(x,y,-5,obj_disparador_bala);
-		bala . hspeed = 5;
+		bala . hspeed = 4;
 		bala . chocar = 0;
 		bala . limitado = 1;
 	}
 	if (image_xscale < 0)
 	{
 		bala = instance_create_depth(x,y,-5,obj_disparador_bala);
-		bala . hspeed = -5;
+		bala . hspeed = -4;
 		bala . chocar = 0;
 		bala . limitado = 1;
 	}

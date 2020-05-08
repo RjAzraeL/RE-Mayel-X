@@ -2,11 +2,11 @@
 carga++;
 if (carga == 100)
 {
-	image_index = 0;
+	
 }
 if (carga > 130)
 {
-	image_index = 0;
+	
 	carga = 0;
 }
 #endregion

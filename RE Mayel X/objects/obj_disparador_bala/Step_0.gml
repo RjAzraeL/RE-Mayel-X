@@ -1,4 +1,4 @@
-//image_angle += 5;
+//image_angle += 4;
 if (limitado == 0)
 {
 	gravity = global.gravedad;
