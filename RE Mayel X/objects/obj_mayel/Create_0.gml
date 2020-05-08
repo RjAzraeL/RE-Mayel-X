@@ -18,6 +18,7 @@ tiene_llave = 0;
 direccion = 1;
 angulo_llave = 0;
 tipo = 0;
+cooldown_portal = 0;
 global.xop = x;
 global.yop = y;
 

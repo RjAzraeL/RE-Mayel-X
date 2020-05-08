@@ -20,7 +20,8 @@
         "5a607186-07e7-4e90-9e0f-c158702fd27f",
         "0ceabef3-fcb5-47be-9ae9-e0179550eb0b",
         "c7d32715-173c-4f0f-a64b-4b24c38897f3",
-        "f979d7e1-43d9-4d4c-ac9e-d826e44432f8"
+        "f979d7e1-43d9-4d4c-ac9e-d826e44432f8",
+        "f89fe8da-a7db-411f-b451-ed3df6305bbf"
     ],
     "filterType": "GMObject",
     "folderName": "Otros",

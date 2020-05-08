@@ -4,3 +4,4 @@ if (place_meeting(x,y-16,object_index))
 {
 	image_index = 1;
 }
+carga = 30;

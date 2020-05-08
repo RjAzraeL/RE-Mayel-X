@@ -6,3 +6,7 @@ wait = 0;
 depth = random_range(-50,50);
 vida = random_range(200,500);
 path_start(pth_ceniza,random_range(1,4),0,false);
+if (global.zona == 5)
+{
+	sprite_index = spr_particula_desierto;
+}

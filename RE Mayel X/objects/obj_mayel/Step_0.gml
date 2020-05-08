@@ -244,10 +244,30 @@ if (y > room_height)
 }
 #endregion
 #region Salir
-if (keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(valor,gp_select))
+if (keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(global.valor,gp_shoulderlb))
 {
 	obj_master.nivelactual = 0;
 	global.zona = 0;
 	room_goto(rm_mapa);
+}
+#endregion
+#region Entrar portal
+if (keyboard_check(btnaba)  or gamepad_axis_value(valor,gp_axislv))
+{
+	if (cooldown_portal == 0)
+	{
+		cooldown_portal = 20;
+		if (place_meeting(x,y,obj_portal))
+		{
+			tp = instance_furthest(x,y,obj_portal);
+			x = tp.x;
+			y = tp.y;
+			scr_sonido(snd_portal);
+		}
+	}
+	else 
+	{
+		cooldown_portal--;
+	}
 }
 #endregion

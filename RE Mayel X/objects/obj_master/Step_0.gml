@@ -75,7 +75,7 @@ if (room != rm_mapa)
 		else 
 		{
 			instance_create_depth(x,y,-1000000,obj_trueno);
-			trueno = round(random_range(150,400));
+			trueno = round(random_range(200,500));
 		}
 	}
 }
@@ -93,6 +93,26 @@ if (room != rm_mapa)
 		{
 			ceniza = random_range(20,60);
 			repeat (8)
+			{
+				instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
+			}
+		}
+	}
+}
+#endregion
+#region Polvo
+if (room != rm_mapa)
+{
+	if (global.zona == 5)
+	{
+		if (ceniza > 0)
+		{
+			ceniza--;
+		}
+		else 
+		{
+			ceniza = random_range(20,60);
+			repeat (4)
 			{
 				instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
 			}

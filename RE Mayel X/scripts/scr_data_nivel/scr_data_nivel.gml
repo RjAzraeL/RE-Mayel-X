@@ -130,6 +130,9 @@ global.nivel[ide,3] = rm_n_d4; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 4; //Zona a la que pertenece
 
+
+#endregion
+#region Zona 5
 var ide = 16;
 global.nivel[ide,0] = "5-1"; //Nombre
 global.nivel[ide,1] = 0; //Completado
