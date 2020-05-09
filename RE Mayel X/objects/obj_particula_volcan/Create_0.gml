@@ -10,3 +10,8 @@ if (global.zona == 5)
 {
 	sprite_index = spr_particula_desierto;
 }
+if (global.zona == 6)
+{
+	sprite_index = spr_particula_burbuja;
+	path_start(pth_burbuja,random_range(1,3),0,false);
+}

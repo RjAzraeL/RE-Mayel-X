@@ -65,7 +65,7 @@ if (keyboard_check_pressed(ord("Z"))  or gamepad_button_check_pressed(obj_master
 				obj_master.mapamayely = y;
 				obj_master.nivelactual = boton.ide;
 				global.zona = global.nivel[boton.ide,5];
-				room_goto(global.nivel[boton.ide,3]);
+				scr_transicion(global.nivel[boton.ide,3]);
 			}
 		}
 	}

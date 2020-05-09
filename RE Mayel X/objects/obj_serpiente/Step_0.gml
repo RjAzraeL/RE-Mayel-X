@@ -56,8 +56,21 @@ if (instance_number(obj_mayel) != 0)
 	{
 		scr_sonido(snd_momia);
 		superataque = 2;
-		move_towards_point(obj_mayel.x,obj_mayel.y,salto/1.2);
+		vspeed = -salto;
 		image_index = 2;
+	}
+}
+#endregion
+#region Colision
+if (superataque != 2)
+{
+	if (place_meeting(x,y + vspeed,obj_bloque))
+	{
+			while (not place_meeting(x, y + sign(vspeed), obj_bloque))
+			{
+				y += sign(vspeed);
+			}
+			vspeed = 0;
 	}
 }
 #endregion

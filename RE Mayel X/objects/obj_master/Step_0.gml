@@ -59,7 +59,7 @@ if (room != rm_mapa)
 				}
 				nivelactual = 0;
 				global.zona = 0;
-				room_goto(rm_mapa);
+				scr_transicion(rm_mapa);
 			}
 		}
 	}
@@ -120,7 +120,28 @@ if (room != rm_mapa)
 	}
 }
 #endregion
+#region Burbuja
+if (room != rm_mapa)
+{
+	if (global.zona == 6)
+	{
+		if (ceniza > 0)
+		{
+			ceniza--;
+		}
+		else 
+		{
+			ceniza = random_range(20,60);
+			repeat (4)
+			{
+				instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
+			}
+		}
+	}
+}
+#endregion
 #region Pantalla
+/*
 if (keyboard_check_pressed(vk_f4))
 {
 	if window_get_fullscreen()
@@ -132,4 +153,5 @@ if (keyboard_check_pressed(vk_f4))
 		window_set_fullscreen(true);
 	}
 }
+*/
 #endregion

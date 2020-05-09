@@ -170,7 +170,7 @@ scr_colision_destruccion(obj_gema);
 #region Reiniciar
 if (keyboard_check_pressed(ord("R")))
 {
-	room_restart();
+	scr_transicion(room);
 }
 #endregion
 #region Disparar
@@ -248,7 +248,7 @@ if (keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(global.val
 {
 	obj_master.nivelactual = 0;
 	global.zona = 0;
-	room_goto(rm_mapa);
+	scr_transicion(rm_mapa);
 }
 #endregion
 #region Entrar portal

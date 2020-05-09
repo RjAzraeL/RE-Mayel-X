@@ -1,4 +1,4 @@
-if (superataque != 2)
+if (superataque == 2)
 {
 	if (idbloque == noone)
 	{
