@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "078ec094-4a03-414d-b166-669d30863812",
+            "Value": {
+                "id": "8663909c-5671-46c0-a99a-9a834f0a84d5",
+                "resourcePath": "datafiles_yy\\Musica\\mus_pantalla_titulo.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "08070137-f433-4c14-bf75-28fef77e70d5",
             "Value": {
                 "id": "ce3a4494-513e-4512-9de4-55e6b085d137",
