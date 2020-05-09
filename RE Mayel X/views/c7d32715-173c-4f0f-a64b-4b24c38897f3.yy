@@ -4,10 +4,29 @@
     "mvc": "1.1",
     "name": "c7d32715-173c-4f0f-a64b-4b24c38897f3",
     "children": [
-        "8a4adc9f-9c7c-4433-a36a-c2df51b09b50"
+        "8a4adc9f-9c7c-4433-a36a-c2df51b09b50",
+        "954fc89b-8aba-4204-9d61-ddc103792327",
+        "590e4f81-a01f-4972-800e-ac4d2a75c60a",
+        "ba37b1e5-9be5-4f86-b94f-13deba19747c",
+        "3d82cdfb-0911-491a-9ce0-320b1d80a058",
+        "f7219ab4-763f-49c0-88da-a4b289f4f621",
+        "22b3604c-aa73-4111-a394-324344209460",
+        "ce42f47b-9011-457d-94ab-edb0abd38ce8",
+        "c5d2c866-4c28-47c1-b4fb-2d1162b216ee",
+        "75a72a5b-d73d-4dac-b544-d29de45cae6e",
+        "9f7c1a44-9130-4009-bb28-aa4e79ed0056",
+        "cc44b0c5-7aea-440c-ac84-d0ff0bb43fbe",
+        "1a450570-52ba-4ab0-8574-62d552de46be",
+        "83ef0d9f-e1ee-4a10-ae16-90165fc8fb6c",
+        "81f865c6-a42c-482e-b024-331e1d6684c0",
+        "89015b3b-eca0-41d7-a5a5-8d8b4b78eabb",
+        "f46f232b-790b-4c11-994d-d4c74885f72d",
+        "4b992469-3677-430a-b7e8-d0f4ba0ac5fb",
+        "bd1e1a72-2df8-40a8-b03c-31ad925ada5b",
+        "3d8d73c0-8dd8-4f8d-b0fd-0d54bca4b60f"
     ],
     "filterType": "GMObject",
-    "folderName": "CRT Shader",
+    "folderName": "Shaders",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

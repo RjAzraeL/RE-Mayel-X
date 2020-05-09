@@ -15,7 +15,9 @@
         "3634c553-8bab-4f64-aacd-369e78669672",
         "e45c3a29-cbd7-4200-a81e-1d377f285b04",
         "9561910a-838c-468a-9ed7-03e525dd8b61",
-        "4aa6fa0c-f40a-4dd6-bfdb-5cd826b69ac6"
+        "4aa6fa0c-f40a-4dd6-bfdb-5cd826b69ac6",
+        "b8130bc4-a5df-4179-94db-02ad55c6ed99",
+        "27f6925a-a196-4fae-8b12-74e71530b964"
     ],
     "filterType": "GMObject",
     "folderName": "Enemigos",
