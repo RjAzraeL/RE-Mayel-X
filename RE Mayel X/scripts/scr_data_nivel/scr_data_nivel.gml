@@ -173,4 +173,28 @@ global.nivel[ide,2] = 0; //Materizado
 global.nivel[ide,3] = rm_n_f1; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 6; //Zona a la que pertenece
+
+var ide = 21;
+global.nivel[ide,0] = "6-2"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_f2; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 6; //Zona a la que pertenece
+
+var ide = 22;
+global.nivel[ide,0] = "6-3"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_f3; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 6; //Zona a la que pertenece
+
+var ide = 23;
+global.nivel[ide,0] = "6-4"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_f4; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 6; //Zona a la que pertenece
 #endregion

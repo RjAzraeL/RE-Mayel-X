@@ -6,6 +6,7 @@
     "children": [
         "9a7a3f99-f282-452f-9148-8e3988b2fc5b",
         "7664e7db-564d-4fd1-b35e-ea2978db7f1f",
+        "96c979e6-a91b-4bfb-a29d-11bbbb419f60",
         "47fbf75f-ef20-459a-bfb6-8cda04021f74",
         "a1bf3a7c-c1aa-4b74-bb02-7e35b738fba1",
         "0bebc22d-72d5-456b-9ada-ac86a0741332",
@@ -17,8 +18,7 @@
         "9561910a-838c-468a-9ed7-03e525dd8b61",
         "4aa6fa0c-f40a-4dd6-bfdb-5cd826b69ac6",
         "b8130bc4-a5df-4179-94db-02ad55c6ed99",
-        "27f6925a-a196-4fae-8b12-74e71530b964",
-        "96c979e6-a91b-4bfb-a29d-11bbbb419f60"
+        "27f6925a-a196-4fae-8b12-74e71530b964"
     ],
     "filterType": "GMObject",
     "folderName": "Enemigos",

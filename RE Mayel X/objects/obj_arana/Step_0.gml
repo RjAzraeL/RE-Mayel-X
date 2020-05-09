@@ -3,10 +3,12 @@ vspeed = velocidad;
 if (place_meeting(x,y-8,obj_bloque) and vspeed < 0)
 {
 	velocidad = 2;
+	image_yscale = 1
 }
 if (place_meeting(x,y+8,obj_bloque) and vspeed > 0)
 {
 	velocidad = -2;
+	image_yscale = -1
 }
 #endregion
 #region Golpe
