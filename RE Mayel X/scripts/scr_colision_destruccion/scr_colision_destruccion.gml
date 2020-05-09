@@ -11,7 +11,7 @@ if (place_meeting(x,y,argument0))
 	{
 		if (instance_number(obj_puerta) != 0)
 		{
-			tiene_llave = 1;
+			tiene_llave += 1;
 		}
 	}
 }
