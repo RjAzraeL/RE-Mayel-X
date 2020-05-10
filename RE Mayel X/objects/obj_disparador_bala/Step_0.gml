@@ -1,7 +1,14 @@
 //image_angle += 4;
 if (limitado == 0)
 {
-	gravity = global.gravedad;
+	if (inclinar == 0)
+	{
+		gravity = global.gravedad;
+	}
+	else 
+	{
+		gravity = -global.gravedad;
+	}
 }
 else 
 {

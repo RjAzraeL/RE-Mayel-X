@@ -58,14 +58,16 @@ if (keyboard_check_pressed(ord("Z"))  or gamepad_button_check_pressed(obj_master
 		boton = instance_place(x,y,obj_boton_mapa);
 		if (instance_number(obj_boton_mapa) != 0)
 		{
-			if (global.nivel[boton.ide,4] == 0)
+			if (global.nivel[boton.ide,4] == 0 and boton.bloqueado == 0)
 			{
 				obj_master.mapamayels = scala;
 				obj_master.mapamayelx = x;
 				obj_master.mapamayely = y;
 				obj_master.nivelactual = boton.ide;
 				global.zona = global.nivel[boton.ide,5];
+				scr_sonido(snd_entrada);
 				scr_transicion(global.nivel[boton.ide,3]);
+				instance_destroy();
 			}
 		}
 	}

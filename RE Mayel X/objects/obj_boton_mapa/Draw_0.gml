@@ -8,4 +8,8 @@ if (dataload == 1)
 	draw_text(x+1,y-23,global.nivel[ide,0]);
 	draw_set_color(color)
 	draw_text(x,y-24,global.nivel[ide,0]);
+	if (bloqueado == 1)
+	{
+		draw_sprite(spr_mapa_candado,0,x,y);
+	}
 }

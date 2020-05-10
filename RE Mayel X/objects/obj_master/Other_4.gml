@@ -1,3 +1,4 @@
+instance_create_depth(0,0,-10000,obj_transicion_inicio);
 valor = -1;
 var numPads= gamepad_get_device_count();
 for(var i = 0; i < numPads; i++;)
@@ -12,7 +13,13 @@ for(var i = 0; i < numPads; i++;)
 
 depth = -1000;
 global.gema_local = 0;
-if (global.zona == 0)
+if (room == rm_pantalla_titulo and room != rm_presentacion)
+{
+	var must = audio_create_stream("Musica/mus_pantalla_titulo.ogg");
+	script_execute(scr_musica,must);
+	scr_musica(must);
+}
+if (global.zona == 0 and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	var musm = audio_create_stream("Musica/mus_mapa.ogg");
 	script_execute(scr_musica,musm);

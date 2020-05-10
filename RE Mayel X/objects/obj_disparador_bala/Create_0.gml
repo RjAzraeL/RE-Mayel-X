@@ -6,6 +6,7 @@ image_index = 0;
 carga_pos = 0;
 limitado = 0;
 diagonal = 0;
+inclinar = 0;
 
 if (instance_number(obj_mayel) != 0)
 {

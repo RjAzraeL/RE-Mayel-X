@@ -4,3 +4,4 @@ dataload = 0;
 roomdireccion = 0;
 color  = c_black;
 //ide = -1;
+bloqueado = 0;

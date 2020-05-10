@@ -4,6 +4,7 @@ scr_data_zona();
 depth = -1000;
 x = -32;
 y = -32;
+global.zona_maxima = 1;
 xo = 0;
 yo = 0;
 valor = -1; 

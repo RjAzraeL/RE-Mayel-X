@@ -1,5 +1,5 @@
 #region Pausa
-if (room != rm_mapa)
+if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	if (keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(global.valor,gp_start))
 	{
@@ -30,11 +30,11 @@ if (room != rm_mapa)
 }
 #endregion
 #region Reaparecer
-if (room != rm_mapa)
+if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	if (global.pausa == 0)
 	{
-		if (instance_number(obj_mayel) == 0)
+		if (instance_number(obj_mayel) == 0 and global.zona != 0)
 		{
 			volver++;
 			if (volver >= 30)
@@ -81,7 +81,7 @@ if (room != rm_mapa)
 }
 #endregion
 #region Ceniza
-if (room != rm_mapa)
+if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	if (global.zona == 2)
 	{
@@ -101,7 +101,7 @@ if (room != rm_mapa)
 }
 #endregion
 #region Polvo
-if (room != rm_mapa)
+if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	if (global.zona == 5)
 	{
@@ -121,7 +121,7 @@ if (room != rm_mapa)
 }
 #endregion
 #region Burbuja
-if (room != rm_mapa)
+if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	if (global.zona == 6)
 	{

@@ -18,3 +18,31 @@ estado = "Parado";
 x = obj_master.mapamayelx;
 y = obj_master.mapamayely;
 image_xscale = obj_master.mapamayels;
+
+var nivel = 0;
+var aumento = 0;
+var maximo = 0;
+var zonaactual = 1;
+
+#region Deteccion zona completada
+for (var z = 0; z < array_height_2d(global.nivel) ; z++)
+{
+	aumento++;
+	if (global.nivel[z,5] == zonaactual)
+	{
+		if (global.nivel[z,1] == 1)
+		{
+			nivel++;
+		}
+	}
+	if (aumento == 4)
+	{
+		if (nivel ==  aumento)
+		{
+			global.zona_maxima++;
+		}
+		aumento = 0;
+		nivel = 0;
+	}
+}
+#endregion

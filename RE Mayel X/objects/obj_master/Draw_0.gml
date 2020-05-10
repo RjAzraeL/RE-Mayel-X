@@ -4,7 +4,7 @@ camera_get_view_x(view_camera[0]);
 camera_get_view_y(view_camera[0]);
 
 */
-if (room != rm_mapa)
+if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	draw_sprite_ext(spr_mayel_icono,0,camera_get_view_x(view_camera[0])+48,camera_get_view_y(view_camera[0])+62,1,1,0,c_white,1);
 	draw_sprite_ext(spr_mayel_moneda,0,camera_get_view_x(view_camera[0])+26,camera_get_view_y(view_camera[0])+170,1,1,0,c_white,1);

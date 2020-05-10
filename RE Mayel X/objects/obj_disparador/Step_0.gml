@@ -2,5 +2,9 @@ carga++;
 if (carga >= carga_tope)
 {
 	carga = 0;
-	instance_create_depth(x,y-8,0,obj_disparador_bala);
+	var bala = instance_create_depth(x,y-8,0,obj_disparador_bala);
+	if (image_yscale == -1)
+	{
+		bala . inclinar = 1;
+	}
 }
