@@ -21,7 +21,8 @@
         "f979d7e1-43d9-4d4c-ac9e-d826e44432f8",
         "f89fe8da-a7db-411f-b451-ed3df6305bbf",
         "dcea9d4b-fc1d-40fd-8f78-8f3c827e8c30",
-        "f2b9aae7-900e-44c1-9760-9ec498f506d5"
+        "f2b9aae7-900e-44c1-9760-9ec498f506d5",
+        "478bc554-7d0a-49de-96ae-f88b1a12f372"
     ],
     "filterType": "GMObject",
     "folderName": "Recursos y otros",

@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "478bc554-7d0a-49de-96ae-f88b1a12f372",
+            "Value": {
+                "id": "356a7000-4ddf-47d0-b860-23600ca8dd5d",
+                "resourcePath": "objects\\obj_bloque_flecha\\obj_bloque_flecha.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47b32ad6-b29d-4528-936e-107529660411",
             "Value": {
                 "id": "e0baff0e-8c36-41d6-8d2a-9da9bd607b64",
@@ -1148,6 +1156,14 @@
                 "id": "3f3732c5-5426-4389-a019-2aa736cb5bfb",
                 "resourcePath": "objects\\obj_transicion_inicio\\obj_transicion_inicio.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ed9f2bc-e748-4aea-b57b-1b7e0e770611",
+            "Value": {
+                "id": "f6f93bf4-2407-4b02-925e-caaee747cce2",
+                "resourcePath": "sprites\\spr_bloque_flecha\\spr_bloque_flecha.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2415,6 +2431,14 @@
             }
         },
         {
+            "Key": "c0fb1405-e47b-4fd2-af0c-549281a8d830",
+            "Value": {
+                "id": "ba20b7a3-6a62-4ef2-86d4-7aa267471de5",
+                "resourcePath": "sprites\\spr_ene_arquero\\spr_ene_arquero.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c119a7fd-cde4-41dc-a405-a8ec64c00d6f",
             "Value": {
                 "id": "5158cffc-000a-4898-9e2e-0ec54be3567f",
@@ -2983,6 +3007,14 @@
             }
         },
         {
+            "Key": "ea9ed0e8-87cd-49f6-8100-dbaad1badcc6",
+            "Value": {
+                "id": "f167dda2-de82-4af2-9b9f-3cdf0e07c573",
+                "resourcePath": "objects\\obj_arquero\\obj_arquero.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eb5cf7f9-c781-44ea-97e2-2f31a114816f",
             "Value": {
                 "id": "364b4d8e-b48a-4363-b6a7-c95c28c29bf3",
@@ -3063,11 +3095,27 @@
             }
         },
         {
+            "Key": "f20a5075-cebc-4cea-b795-ee38e900127d",
+            "Value": {
+                "id": "12e49c16-c186-4abd-a05d-279f42175334",
+                "resourcePath": "sprites\\spr_arquero_flecha\\spr_arquero_flecha.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f234eecb-9185-4a19-8af0-12e98be991e1",
             "Value": {
                 "id": "8269973f-8c80-41f1-935b-70bd2bbd64e7",
                 "resourcePath": "paths\\pth_ceniza\\pth_ceniza.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "f2b2d142-d1a3-4fc2-bcd6-20e299200a3d",
+            "Value": {
+                "id": "aa21a4e8-5080-498e-9c13-510e677fddf9",
+                "resourcePath": "objects\\obj_flecha\\obj_flecha.yy",
+                "resourceType": "GMObject"
             }
         },
         {

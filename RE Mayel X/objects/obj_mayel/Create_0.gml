@@ -21,6 +21,8 @@ tipo = 0;
 cooldown_portal = 0;
 global.xop = x;
 global.yop = y;
+no_izq = 0;
+no_der = 0;
 
 /*
 btnarr = vk_up;

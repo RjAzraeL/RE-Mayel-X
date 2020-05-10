@@ -2,13 +2,35 @@
 scr_gravedad();
 #endregion
 #region Movimiento
+if (place_meeting(x,y,obj_bloque_flecha))
+{
+	bl = instance_place(x,y,obj_bloque_flecha);
+	if (bl.image_xscale == 1)
+	{
+		no_izq = 1;
+		no_der = 0;
+	}
+	if (bl.image_xscale == -1)
+	{
+		no_izq = 0;
+		no_der = 1;
+	}
+}
+else 
+{
+	no_izq = 0;
+	no_der = 0;
+}
 if (keyboard_check(btnizq) or -gamepad_axis_value(valor,gp_axislh))
 {
 	if !(place_meeting(x-velocidad,y,obj_bloque))
 	{
-		paso++;
-		direccion = -1;
-		x-= velocidad;
+		if (no_izq == 0)
+		{
+			paso++;
+			direccion = -1;
+			x-= velocidad;
+		}
 		
 	}
 }
@@ -16,9 +38,12 @@ if (keyboard_check(btnder) or gamepad_axis_value(valor,gp_axislh))
 {
 	if !(place_meeting(x+velocidad,y,obj_bloque))
 	{
-		direccion = 1;
-		x+= velocidad;
-		paso++;
+		if (no_der == 0)
+		{
+			direccion = 1;
+			x+= velocidad;
+			paso++;
+		}
 	}
 }
 if (paso >= 25 and place_meeting(x,y+1,obj_bloque))
@@ -42,13 +67,13 @@ if !(place_meeting(x,y+1,obj_bloque))
 }
 if (friccion == 1 and place_meeting(x,y+1,obj_bloque))
 {
-	if (image_xscale>0 and friccion_valor>0 and (!place_meeting(x+1,y,obj_bloque)) and direccion == 1)
+	if (image_xscale>0 and friccion_valor>0 and (!place_meeting(x+1,y,obj_bloque)) and direccion == 1 and no_der == 0)
 	{
 		x += friccion_valor;
 		friccion_valor -= 0.1;
 	}
-	if (image_xscale<0 and friccion_valor>0 and (!place_meeting(x-1,y,obj_bloque)) and direccion == -1)
-	{
+	if (image_xscale<0 and friccion_valor>0 and (!place_meeting(x-1,y,obj_bloque)) and direccion == -1  and no_izq == 0)
+	 {
 		x -= friccion_valor;
 		friccion_valor -= 0.1;
 	}
