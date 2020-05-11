@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "29aee711-789d-44a5-bab9-4c345b060b52",
+            "Value": {
+                "id": "5b1d08a9-3452-4e52-92f8-563c7dfd7f64",
+                "resourcePath": "objects\\obj_tuffie_nave\\obj_tuffie_nave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c6302df-3634-4a04-8f82-e085db989222",
             "Value": {
                 "id": "a67e608e-0d0d-4ff1-a858-1436df57ffdd",
@@ -1207,6 +1215,14 @@
             }
         },
         {
+            "Key": "619b4bc9-5d4e-43e3-8d22-1c454bc9873b",
+            "Value": {
+                "id": "8ea81f72-44cc-4515-83c4-ca90da95a056",
+                "resourcePath": "sprites\\spr_ene_tuffie_nave_disparadora\\spr_ene_tuffie_nave_disparadora.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "626dc21c-dd6c-47f2-b17e-be724553971c",
             "Value": {
                 "id": "c0e06abb-b8ea-4d44-9106-13fec8be5adb",
@@ -1380,6 +1396,14 @@
                 "id": "4ca3a848-66aa-4bfa-9c7d-47fd2a7e2fd6",
                 "resourcePath": "views\\75a72a5b-d73d-4dac-b544-d29de45cae6e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75be124a-70a8-4c35-a7c8-1c74e0d6670b",
+            "Value": {
+                "id": "3fda5ebc-1616-45f7-95d2-a4103e2770f6",
+                "resourcePath": "objects\\obj_tuffie_nave_disparadora\\obj_tuffie_nave_disparadora.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1756,6 +1780,14 @@
                 "id": "64537372-fe1c-4c24-8fc7-4f7962bf9e0f",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "9487b307-f55b-4805-ad20-1ca04ae1aa65",
+            "Value": {
+                "id": "211bafe2-efbb-436d-9e58-7cb91445dac9",
+                "resourcePath": "sounds\\snd_metal\\snd_metal.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2220,6 +2252,14 @@
                 "id": "2bcfbf0e-ce71-40c7-a6a7-c24ac6f15d51",
                 "resourcePath": "datafiles_yy\\Musica\\mus_mapa.ogg.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b3e1ab03-c09a-42a5-9fe4-9ff91d3d2ed0",
+            "Value": {
+                "id": "a948be03-0f0d-44db-a29e-6df3dacabcf1",
+                "resourcePath": "sprites\\spr_ene_tuffie_nave\\spr_ene_tuffie_nave.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3004,6 +3044,14 @@
                 "id": "93c9aa93-aef7-4f38-b576-05530cd8fec6",
                 "resourcePath": "tilesets\\tl_auto7\\tl_auto7.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "ea570387-cfe2-464d-b6f5-e6de92986720",
+            "Value": {
+                "id": "f38fa56c-ba1d-4ab7-965d-29a67d0d98f1",
+                "resourcePath": "sprites\\spr_cuidado\\spr_cuidado.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
