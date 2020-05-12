@@ -1,1 +1,0 @@
-velocidad = 2;

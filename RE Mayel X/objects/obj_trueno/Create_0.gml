@@ -1,1 +1,0 @@
-scr_sonido(choose(snd_trueno1,snd_trueno2,snd_trueno3));

@@ -1,1 +1,0 @@
-draw_sprite_ext(spr_trueno,0,0,0,room_width,room_height,0,c_white,image_alpha);
