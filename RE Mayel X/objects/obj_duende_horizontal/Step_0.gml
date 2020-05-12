@@ -32,7 +32,21 @@ if (place_meeting(x,y,par_arma))
 }
 #endregion
 #region Estirar
-scr_estirar_horizontal();
+if (estirar == 1)
+{
+	image_y+= 0.02;
+	if (hspeed == 0)
+	{
+		estirar = 2;
+	}
+}
+if (estirar == 2)
+{
+	if (image_y > 0)
+	{
+		image_y-= 0.02;
+	}
+}
 #endregion
 #region Direccion
 if (loading == 0)

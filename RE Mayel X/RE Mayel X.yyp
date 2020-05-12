@@ -1439,14 +1439,6 @@
             }
         },
         {
-            "Key": "78a3f093-8d19-4075-8a0d-a90c806bb1a8",
-            "Value": {
-                "id": "e8d8c7a9-0742-4783-b5e2-1b225d43d2bb",
-                "resourcePath": "scripts\\scr_estirar_horizontal\\scr_estirar_horizontal.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "79f5040d-f774-4eb1-aa5d-4aa46cdb4d0b",
             "Value": {
                 "id": "2596c481-ca60-4da8-8baf-b8b3c697b71a",
@@ -1823,14 +1815,6 @@
             }
         },
         {
-            "Key": "956c3796-dee6-42f6-8e22-b4a90ff4fe0f",
-            "Value": {
-                "id": "a1a5c775-e196-4be9-b449-30f4c405172e",
-                "resourcePath": "scripts\\scr_estirar\\scr_estirar.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "96a588c4-e4c0-4550-9222-e6cacd620e8b",
             "Value": {
                 "id": "9315970f-4750-4b2d-8bfd-b7c40474ff24",
@@ -2156,14 +2140,6 @@
                 "id": "e26b8703-5780-4c56-a2c4-d34c00e08f03",
                 "resourcePath": "views\\ada3249b-7eab-4051-b7ce-cb252cb0635e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "adf914a6-af85-4645-b336-c838a110c133",
-            "Value": {
-                "id": "ecca028b-70bc-4d74-b0eb-74fab17e11fe",
-                "resourcePath": "rooms\\rm_n_a1\\rm_n_a1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2919,14 +2895,6 @@
             }
         },
         {
-            "Key": "e03201ce-f292-46a8-a75d-a40a16718173",
-            "Value": {
-                "id": "71594d91-fbc1-4a10-bf26-4c0fe48ebd62",
-                "resourcePath": "views\\adf914a6-af85-4645-b336-c838a110c133-room.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "e0bf79da-fbed-4dbb-ada8-c10ea55af117",
             "Value": {
                 "id": "1877e669-7ea4-428e-9c4a-fef89636b69c",
@@ -3351,14 +3319,6 @@
             }
         },
         {
-            "Key": "fb88094b-9af9-4fa7-9751-b663445bd713",
-            "Value": {
-                "id": "1380e9de-b9ea-419e-853b-9f1a3e3f9dae",
-                "resourcePath": "sprites\\spr_mascara60x32\\spr_mascara60x32.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "fbe67c01-dd62-4442-ac2d-75b210cdca24",
             "Value": {
                 "id": "37f2fbe5-5da6-45e7-be52-232a9d51f780",
@@ -3372,14 +3332,6 @@
                 "id": "e54e3430-d2a0-4df2-930d-e65bf1b6de00",
                 "resourcePath": "views\\fc4b5db6-c9d7-4a50-b0ea-0ad5fd2c124a.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fd7f4041-aafa-4ae2-96e8-90c13da897da",
-            "Value": {
-                "id": "5f9c8a54-e48e-48fd-98dc-89d40ad05e55",
-                "resourcePath": "sprites\\spr_mascara32x60\\spr_mascara32x60.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -3433,9 +3385,7 @@
         "573eedcc-379f-41be-bf05-9d1a99bacef3",
         "3759462f-11c8-4017-9fd8-3eeaf8865103",
         "f5c67be3-09ad-4d45-a10e-0258066f0bd4",
-        "57fcd8f3-fa51-4b8e-9fd2-88226e8d777b",
-        "956c3796-dee6-42f6-8e22-b4a90ff4fe0f",
-        "78a3f093-8d19-4075-8a0d-a90c806bb1a8"
+        "57fcd8f3-fa51-4b8e-9fd2-88226e8d777b"
     ],
     "tutorial": ""
 }

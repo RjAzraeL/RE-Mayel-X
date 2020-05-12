@@ -9,9 +9,7 @@
         "5853cd2f-7419-4202-94d2-12796dbef5be",
         "e7c6fdd5-fca6-41df-91bd-7cbba7b45302",
         "c13b4a30-0b3e-487d-bdae-8ad5571e682e",
-        "5d0b97a9-0626-4615-bb19-7cae0ef5f123",
-        "fd7f4041-aafa-4ae2-96e8-90c13da897da",
-        "fb88094b-9af9-4fa7-9751-b663445bd713"
+        "5d0b97a9-0626-4615-bb19-7cae0ef5f123"
     ],
     "filterType": "GMSprite",
     "folderName": "Mascaras",

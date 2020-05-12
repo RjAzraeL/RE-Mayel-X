@@ -26,7 +26,21 @@ if (place_meeting(x,y,par_arma))
 }
 #endregion
 #region Estirar
-scr_estirar();
+if (estirar == 1)
+{
+	image_y+= 0.02;
+	if (vspeed == 0)
+	{
+		estirar = 2;
+	}
+}
+if (estirar == 2)
+{
+	if (image_y > 0)
+	{
+		image_y-= 0.02;
+	}
+}
 #endregion
 #region Superataque
 if (instance_number(obj_mayel) != 0)
