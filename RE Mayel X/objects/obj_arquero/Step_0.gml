@@ -58,3 +58,16 @@ if (elevo_variable >= elevo_tope or elevo_variable <= -elevo_tope)
 	elevo_tasa *= -1;
 }
 #endregion
+#region Mirar
+if (instance_number(obj_mayel) != 0)
+{
+	if (x < obj_mayel.x)
+	{
+		image_xscale = 1;
+	}
+	if (x > obj_mayel.x)
+	{
+		image_xscale = -1;
+	}
+}
+#endregion

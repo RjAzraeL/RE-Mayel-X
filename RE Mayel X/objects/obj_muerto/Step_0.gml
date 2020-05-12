@@ -1,3 +1,14 @@
+if (sprite_index == spr_ene_tuffie_nave)
+{
+	image_index = 2;
+	image_speed = 0;
+}
+if (sprite_index == spr_ene_tuffie_nave_disparadora)
+{
+	image_index = 2;
+	image_speed = 0;
+}
+
 image_xscale += 0.02;
 image_yscale += 0.02;
 image_angle += 5;

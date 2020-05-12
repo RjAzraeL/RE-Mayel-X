@@ -155,3 +155,13 @@ if (keyboard_check_pressed(vk_f4))
 }
 */
 #endregion
+#region Gravedad //ACA PODES CAMBIAR LA GRAVEDAD
+if (global.zona == 8)
+{
+	global.gravedad = 0.3;
+}
+else 
+{
+	global.gravedad = 0.4;
+}
+#endregion
