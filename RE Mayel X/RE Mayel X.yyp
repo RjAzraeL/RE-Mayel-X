@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "051763e7-13c7-41e7-b9fc-f1300717dbfc",
+            "Value": {
+                "id": "457dce4f-d01c-4a21-942f-6115fbaaf4b6",
+                "resourcePath": "rooms\\rm_n_g2\\rm_n_g2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "053aac64-9f69-407b-affe-17f3cfea5198",
             "Value": {
                 "id": "fa2526ea-95e3-4795-89cb-44647178df23",
@@ -76,6 +84,14 @@
                 "id": "cb8d20de-cc94-43d0-9f79-eb5bcb15d24a",
                 "resourcePath": "sprites\\spr_mayel_saltando_inicio\\spr_mayel_saltando_inicio.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0b6094d7-55e4-49ba-8b1a-63b7d7ab7195",
+            "Value": {
+                "id": "426985f1-25fa-45fa-ba58-7ab6d20364e8",
+                "resourcePath": "rooms\\rm_n_g3\\rm_n_g3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -983,6 +999,14 @@
             }
         },
         {
+            "Key": "56e14c06-47f6-40b0-9960-25f8748a1477",
+            "Value": {
+                "id": "4bae63c6-2bb3-49fd-b1b5-5b497355ef4d",
+                "resourcePath": "views\\56e14c06-47f6-40b0-9960-25f8748a1477.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "56ea1eeb-e494-4537-bc38-4f6da1fe491e",
             "Value": {
                 "id": "fd7f1763-982b-4547-afe7-5734961c6b9f",
@@ -1767,6 +1791,14 @@
             }
         },
         {
+            "Key": "91176ce2-4d42-439b-9e97-dab716b6b9af",
+            "Value": {
+                "id": "8b6131be-3525-474e-9198-c1cc56797b68",
+                "resourcePath": "tilesets\\tl_auto8\\tl_auto8.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "92e17e8e-7b48-4c00-af0c-4c2d93e00c77",
             "Value": {
                 "id": "9e0f4392-3908-49b0-bbf7-90830e28e7bc",
@@ -2171,6 +2203,14 @@
             "Value": {
                 "id": "ecca028b-70bc-4d74-b0eb-74fab17e11fe",
                 "resourcePath": "rooms\\rm_n_a1\\rm_n_a1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ae0d2f85-9463-473d-8830-d206c0256691",
+            "Value": {
+                "id": "c0559c40-d6c9-4c7c-ae48-9b6ee3de78d8",
+                "resourcePath": "rooms\\rm_n_g4\\rm_n_g4.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2935,6 +2975,14 @@
             }
         },
         {
+            "Key": "e06c1bbb-6092-4a06-b2c8-43d86af5cbce",
+            "Value": {
+                "id": "84024f4a-4e89-48a0-91ce-bbb147e97f33",
+                "resourcePath": "sprites\\spr_autotile8\\spr_autotile8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0bf79da-fbed-4dbb-ada8-c10ea55af117",
             "Value": {
                 "id": "1877e669-7ea4-428e-9c4a-fef89636b69c",
@@ -3084,6 +3132,14 @@
                 "id": "f167dda2-de82-4af2-9b9f-3cdf0e07c573",
                 "resourcePath": "objects\\obj_arquero\\obj_arquero.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb175d27-bdaa-4324-b621-f9c4c2df78af",
+            "Value": {
+                "id": "51b23501-4a06-491e-b77f-a86801662c3b",
+                "resourcePath": "rooms\\rm_n_g1\\rm_n_g1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3348,6 +3404,14 @@
                 "id": "921f45ff-ebc5-44fc-b191-2eb0dbf60a07",
                 "resourcePath": "objects\\obj_disparador_bala1\\obj_disparador_bala1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb2cc464-8c1d-4686-9929-62546d98db15",
+            "Value": {
+                "id": "1d88bfe6-2ddf-4ed5-a4ae-4f16a082956d",
+                "resourcePath": "sprites\\spr_betaa\\spr_betaa.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

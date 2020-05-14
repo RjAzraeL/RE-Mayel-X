@@ -1,7 +1,7 @@
 if (estirar == 1)
 {
 	image_y+= 0.02;
-	if (hspeed > 0)
+	if (hspeed == 0)
 	{
 		estirar = 2;
 	}
