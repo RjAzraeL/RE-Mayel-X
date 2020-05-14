@@ -1,3 +1,4 @@
+entrando = 0;
 sprCaminando = spr_mayel_caminando;
 sprParado = spr_mayel_parado;
 sprSaltando_medio = spr_mayel_saltando_caida;
@@ -9,8 +10,11 @@ btnder = obj_master.btnder;
 btnaba = obj_master.btnaba
 btndis1 = obj_master.btndis1;
 btndis2 = obj_master.btndis2;
-velocidad = 2;
+paso = 0;
+velocidad = 3;
+tipo = global.tipo;
 depth = -5;
+reload = 0;
 scala = 0.5;
 image_xscale = scala;
 estado = "Parado";
@@ -28,7 +32,7 @@ var zonaactual = 1;
 for (var z = 0; z < array_height_2d(global.nivel) ; z++)
 {
 	aumento++;
-	if (global.nivel[z,5] == zonaactual)
+	if (global.nivel[z,5] == global.zona_maxima)
 	{
 		if (global.nivel[z,1] == 1)
 		{
@@ -46,3 +50,5 @@ for (var z = 0; z < array_height_2d(global.nivel) ; z++)
 	}
 }
 #endregion
+
+scr_set_mayel(tipo);

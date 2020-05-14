@@ -43,6 +43,8 @@ if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 				var mayel = instance_create_depth(global.xop,global.yop,-6,obj_mayel);
 				mayel . tiene_llave = conllave;
 				conllave = 0;
+				global.moneda = round(global.moneda/2);
+				global.tipo = 0;
 				scr_particula(c_white);
 			}
 		}
@@ -155,7 +157,7 @@ if (keyboard_check_pressed(vk_f4))
 }
 */
 #endregion
-#region Gravedad //ACA PODES CAMBIAR LA GRAVEDAD
+#region Gravedad 
 if (global.zona == 8)
 {
 	global.gravedad = 0.3;

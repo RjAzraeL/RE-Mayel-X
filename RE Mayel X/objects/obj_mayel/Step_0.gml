@@ -85,16 +85,27 @@ if (friccion == 1 and place_meeting(x,y+1,obj_bloque))
 }
 if (keyboard_check(btnarr) or gamepad_button_check_pressed(valor,gp_face1))
 {
-	if (place_meeting(x,y+1,obj_bloque))
+	if (place_meeting(x,y+1,obj_bloque) and (not place_meeting(x,y-1,obj_bloque)))
 	{
 		scr_sonido(snd_salto);
 		vspeed = -salto;
 		fase_salto = 0;
 	}
+	if (place_meeting(x,y-1,obj_bloque) and estado == "Parado")
+	{
+		if (image_xscale>0)
+		{
+			x-=velocidad;
+		}
+		if (image_xscale<0)
+		{
+			x+=velocidad;
+		}
+	}
 }
 #endregion
 #region Estado
-if (place_meeting(x,y+1,obj_bloque))
+if (estado == "Parado" or estado == "Caminando" or estado == "Cayendo")
 {
 	if (x<xprevious)
 	{
@@ -195,6 +206,7 @@ scr_colision_destruccion(obj_gema);
 #region Reiniciar
 if (keyboard_check_pressed(ord("R")))
 {
+	scr_sonido(snd_salir);
 	scr_transicion(room);
 }
 #endregion
@@ -271,8 +283,13 @@ if (y > room_height)
 #region Salir
 if (keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(global.valor,gp_shoulderlb))
 {
+	scr_sonido(snd_salir);
 	obj_master.nivelactual = 0;
 	global.zona = 0;
+	if (instance_number(obj_mayel) != 0)
+	{
+		global.tipo = obj_mayel.tipo;
+	}
 	instance_destroy(obj_mayel);
 	scr_transicion(rm_mapa);
 }
@@ -295,5 +312,12 @@ if (keyboard_check(btnaba)  or gamepad_axis_value(valor,gp_axislv))
 	{
 		cooldown_portal--;
 	}
+}
+#endregion
+#region Cheats
+if (keyboard_check_pressed(vk_down))
+{
+	x = obj_caramelo.x;
+	y = obj_caramelo.y;
 }
 #endregion

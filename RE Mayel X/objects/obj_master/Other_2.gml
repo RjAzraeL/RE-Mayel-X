@@ -27,6 +27,7 @@ global.zona = 0;
 global.volumen_musica = 0.1;
 global.volumen_sonido = 0.5;
 global.xop = 0;
+global.tipo = 0;
 global.yop = 0;
 btnarr = vk_up;
 btnizq = vk_left;

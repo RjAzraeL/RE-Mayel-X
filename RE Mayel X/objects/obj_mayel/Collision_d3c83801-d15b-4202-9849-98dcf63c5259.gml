@@ -14,6 +14,7 @@ if (other.object_index != obj_lava)
 	{
 		scr_sonido(snd_golpe);
 		tipo = 0;
+		global.tipo = 0;
 		scr_set_mayel(tipo);
 		invencible = 30;
 	}
