@@ -198,3 +198,36 @@ global.nivel[ide,3] = rm_n_f4; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 6; //Zona a la que pertenece
 #endregion
+#region Zona 7
+var ide = 24;
+global.nivel[ide,0] = "7-1"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_g1; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 7; //Zona a la que pertenece
+
+var ide = 25;
+global.nivel[ide,0] = "7-2"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_g2; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 7; //Zona a la que pertenece
+
+var ide = 26;
+global.nivel[ide,0] = "7-3"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_g3; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 7; //Zona a la que pertenece
+
+var ide = 27;
+global.nivel[ide,0] = "7-4"; //Nombre
+global.nivel[ide,1] = 0; //Completado
+global.nivel[ide,2] = 0; //Materizado
+global.nivel[ide,3] = rm_n_g4; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
+global.nivel[ide,5] = 7; //Zona a la que pertenece
+#endregion

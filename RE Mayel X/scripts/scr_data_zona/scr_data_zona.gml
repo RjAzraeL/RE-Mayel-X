@@ -33,4 +33,9 @@ var ide = 6;
 global.zonas[ide,0] = ""; //Nombre
 global.zonas[ide,1] = c_blue; //Color
 global.zonas[ide,2] = 0; //Bloqueadas
+
+var ide = 7;
+global.zonas[ide,0] = ""; //Nombre
+global.zonas[ide,1] = c_white; //Color
+global.zonas[ide,2] = 0; //Bloqueadas
 #endregion
