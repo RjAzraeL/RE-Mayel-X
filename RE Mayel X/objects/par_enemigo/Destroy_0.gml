@@ -1,4 +1,4 @@
-if (object_index != obj_disparador_bala and object_index != obj_disparador_bala_arana and object_index != obj_flecha) //La bala no tendra una animacion al destruirse
+if (object_index != obj_disparador_bala and object_index != obj_bolava and object_index != obj_disparador_bala_arana and object_index != obj_flecha and object_index != obj_disparador_fuego_lanzallama and object_index != obj_bolaelectrica_encendida) //La bala no tendra una animacion al destruirse
 {
 	var muerto = instance_create_depth(x,y,-10,obj_muerto);
 	muerto . sprite_index = sprite_index;

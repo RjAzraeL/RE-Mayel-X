@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "13386594-4a59-452e-aca5-82019a654d44",
+            "Value": {
+                "id": "3c49f3a5-aa65-4ead-9df7-be7e6b688c5c",
+                "resourcePath": "objects\\obj_bolaelectrica_encendida\\obj_bolaelectrica_encendida.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1348417a-750c-4d46-a42a-3a9e04648df4",
             "Value": {
                 "id": "f9faa8e6-6e63-4201-a8b7-9979f0cb0fce",
@@ -420,6 +428,14 @@
                 "id": "70d96eeb-b901-448f-bb65-cc1001a67a1d",
                 "resourcePath": "objects\\obj_tiburon\\obj_tiburon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "292039b8-68fc-4265-8574-c9742a3ad450",
+            "Value": {
+                "id": "0ac90092-9502-43fe-b1e4-abab45ac83f7",
+                "resourcePath": "sprites\\spr_bolava\\spr_bolava.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -747,6 +763,14 @@
             "Value": {
                 "id": "568702a5-1971-4fe3-ac28-7044401cb78a",
                 "resourcePath": "objects\\obj_player_greyscale\\obj_player_greyscale.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "40dada8b-1399-4c6f-8644-4f24793d5616",
+            "Value": {
+                "id": "e178b878-c016-447d-84d2-e1a3303c760b",
+                "resourcePath": "objects\\obj_disparador_fuego_lanzallama\\obj_disparador_fuego_lanzallama.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1143,6 +1167,14 @@
             }
         },
         {
+            "Key": "5aebbcef-4e22-4453-b22b-b1cd661ff28d",
+            "Value": {
+                "id": "3b7337df-1807-409c-9db0-9e2b34a07b99",
+                "resourcePath": "objects\\obj_tuffie_lanzallamas\\obj_tuffie_lanzallamas.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b2f6fc7-6660-4bab-8998-254b392080a7",
             "Value": {
                 "id": "aebd29c0-1f8c-466a-8896-4935240af28f",
@@ -1463,6 +1495,14 @@
             }
         },
         {
+            "Key": "75ee08ef-bc32-4a57-a625-310985f229ef",
+            "Value": {
+                "id": "80961669-960b-4d88-a3be-e8151d30db1c",
+                "resourcePath": "sprites\\spr_fuego_lanzallamas\\spr_fuego_lanzallamas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7664e7db-564d-4fd1-b35e-ea2978db7f1f",
             "Value": {
                 "id": "479517e9-e659-4c30-81f1-bd2445a097e3",
@@ -1500,6 +1540,14 @@
                 "id": "e8d8c7a9-0742-4783-b5e2-1b225d43d2bb",
                 "resourcePath": "scripts\\scr_estirar_horizontal\\scr_estirar_horizontal.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "79f45c82-5a7f-4cbf-b861-3b525fd46d60",
+            "Value": {
+                "id": "735bf00e-659d-4dab-8865-131b66422112",
+                "resourcePath": "sprites\\spr_ene_tuffie_arquero\\spr_ene_tuffie_arquero.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1596,6 +1644,14 @@
                 "id": "c8f52270-544c-448e-be6f-a269eadbfdaf",
                 "resourcePath": "views\\81f865c6-a42c-482e-b024-331e1d6684c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82247659-f869-4419-8080-f83e02564da9",
+            "Value": {
+                "id": "c99a455e-b277-48a4-8d13-2f1ab2351643",
+                "resourcePath": "objects\\obj_bolava\\obj_bolava.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1855,6 +1911,14 @@
             }
         },
         {
+            "Key": "9409e2e1-506d-4003-95fa-fd8e58624bb9",
+            "Value": {
+                "id": "95f9c4d4-4653-4ec5-8afc-2170eae337f1",
+                "resourcePath": "objects\\obj_bolaelectrica_apagada\\obj_bolaelectrica_apagada.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9487b307-f55b-4805-ad20-1ca04ae1aa65",
             "Value": {
                 "id": "211bafe2-efbb-436d-9e58-7cb91445dac9",
@@ -1996,6 +2060,14 @@
                 "id": "66219e9d-fe6a-4315-b4c5-65fa13e5a6f2",
                 "resourcePath": "objects\\obj_caramelo_casco\\obj_caramelo_casco.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9dfc6431-6bfc-487e-8359-5a61b5bee7a3",
+            "Value": {
+                "id": "0bf49f74-ea0b-4e93-a110-43d54f073afb",
+                "resourcePath": "sprites\\spr_flecha_arquero\\spr_flecha_arquero.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2855,6 +2927,14 @@
             }
         },
         {
+            "Key": "d4f8aab3-09a9-481e-8f8e-b91f30376ff4",
+            "Value": {
+                "id": "de046907-4ad9-4f29-a93c-92c8cc20a160",
+                "resourcePath": "sprites\\spr_bolaelectrica_apagada\\spr_bolaelectrica_apagada.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d501be5c-9ad7-42ba-9dd7-20c13e972086",
             "Value": {
                 "id": "1191d928-ea53-4723-9820-d85bcee30bdf",
@@ -2988,6 +3068,14 @@
                 "id": "01d58b08-b483-4cad-9ea4-da509b53d381",
                 "resourcePath": "objects\\obj_bloque_b\\obj_bloque_b.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de0d3d52-1c44-4916-a671-4af9b0796d59",
+            "Value": {
+                "id": "65a87ebc-c0db-469e-a928-4e4c3726df6c",
+                "resourcePath": "sprites\\spr_bolaelectrica_encendida\\spr_bolaelectrica_encendida.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3508,6 +3596,14 @@
                 "id": "104f2998-2a97-4c9b-9793-d78a34721f4f",
                 "resourcePath": "rooms\\rm_n_d2\\rm_n_d2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ff06ff31-3311-4dcc-9378-cb4ec5683213",
+            "Value": {
+                "id": "ba77594c-18da-43c6-9005-425d696435d4",
+                "resourcePath": "sprites\\spr_ene_tuffie_lanzallamas\\spr_ene_tuffie_lanzallamas.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

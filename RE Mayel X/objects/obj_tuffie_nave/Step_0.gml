@@ -80,6 +80,19 @@ if (elevo_variable >= elevo_tope or elevo_variable <= -elevo_tope)
 #endregion
 #region Movimiento
 hspeed = velocidad;
+actual += 2;
+if (actual > tope and hspeed > 0)
+{
+	actual = 0;
+	velocidad = -2;
+	image_xscale = -1;
+}
+if (actual > tope and hspeed < 0)
+{
+	actual = 0;
+	velocidad = 2;
+	image_xscale = 1;
+}
 if (place_meeting(x-8,y,obj_bloque) and hspeed < 0)
 {
 	velocidad = 2;

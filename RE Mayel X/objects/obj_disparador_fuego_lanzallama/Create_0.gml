@@ -1,0 +1,10 @@
+direccion_arma = choose(-1,1);
+chocar = 1;
+carga = 0;
+image_speed = 1;
+image_index = 0;
+carga_pos = 0;
+limitado = 0;
+diagonal = 0;
+//scr_sonido(snd_disparo_enemigos);
+diss = 0;

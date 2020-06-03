@@ -315,9 +315,9 @@ if (keyboard_check(btnaba)  or gamepad_axis_value(valor,gp_axislv))
 }
 #endregion
 #region Cheats
-if (keyboard_check_pressed(vk_down))
+/*if (keyboard_check_pressed(vk_down))
 {
 	x = obj_caramelo.x;
 	y = obj_caramelo.y;
-}
+}*/
 #endregion

@@ -26,7 +26,7 @@ else
 	carga++;
 }
 
-
+al += 0.01;
 carga_pos++;
 
 if (carga_pos == 2)

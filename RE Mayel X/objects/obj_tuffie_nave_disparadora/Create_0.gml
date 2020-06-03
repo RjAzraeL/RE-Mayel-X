@@ -14,3 +14,5 @@ elevo_variable = 0;
 vida = 3;
 invencible = 0;
 cuidado = 0;
+tope = 100;
+actual = 0;

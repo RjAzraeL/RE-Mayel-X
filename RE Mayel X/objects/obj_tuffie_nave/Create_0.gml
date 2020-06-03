@@ -12,3 +12,5 @@ elevo_tope = 2;
 elevo_variable = 0;
 vida = 3;
 invencible = 0;
+tope = 100;
+actual = 0;

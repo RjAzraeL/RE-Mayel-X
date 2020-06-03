@@ -4,3 +4,4 @@ if (place_meeting(x,y-16,object_index))
 {
 	sprite_index = spr_magma;
 }
+carga = 0;

@@ -5,7 +5,8 @@ if (dataload == 0)
 	color = global.zonas[global.nivel[ide,5],1];
 	if (global.nivel[ide,5] > global.zona_maxima)
 	{
-		bloqueado = 1;
+		//bloqueado = 1; ACA CAMBIA PARA BLOQUEAR
+		bloqueado = 0;
 	}
 	if (global.nivel[ide,1] == 1)
 	{
