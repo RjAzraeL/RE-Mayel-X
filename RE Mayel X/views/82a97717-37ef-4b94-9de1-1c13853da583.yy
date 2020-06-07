@@ -11,7 +11,8 @@
         "59ce487f-cc16-47ed-9cad-c03f9667a2b5",
         "b3987208-7435-431b-a242-a96bd4b71da9",
         "e0bf79da-fbed-4dbb-ada8-c10ea55af117",
-        "8bc62d24-a255-4022-b498-cd108236f063"
+        "8bc62d24-a255-4022-b498-cd108236f063",
+        "4adab1cd-b713-4b5a-9a36-0bb11b17429f"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "Musica",

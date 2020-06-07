@@ -24,6 +24,11 @@ global.yop = y;
 no_izq = 0;
 no_der = 0;
 
+if (instance_number( par_luz ) == 0)
+{
+	instance_create_depth(x,y,-2000 , par_luz);
+}
+
 /*
 btnarr = vk_up;
 btnizq = vk_left;

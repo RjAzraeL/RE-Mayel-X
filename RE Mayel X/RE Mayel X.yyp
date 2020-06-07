@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "136d3f95-aab0-49cf-9724-1bfc156f603d",
+            "Value": {
+                "id": "6fdcc59f-23a8-4fbd-88c8-fc876bc382bf",
+                "resourcePath": "objects\\par_luz\\par_luz.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13c5df1b-f8ce-403a-89fb-7aa5d5c63755",
             "Value": {
                 "id": "5267b106-7d6b-4f7a-8698-6552ccde9671",
@@ -940,6 +948,14 @@
                 "id": "f7f6e804-9b49-4396-baf3-c76c54045881",
                 "resourcePath": "views\\4aca0103-cb5f-40b4-b2ee-2a77ceece168.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4adab1cd-b713-4b5a-9a36-0bb11b17429f",
+            "Value": {
+                "id": "cf6ef70c-e3c8-4cbd-8d38-900c0a0c2c5b",
+                "resourcePath": "datafiles_yy\\Musica\\mus_zona7.ogg.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1940,6 +1956,14 @@
                 "id": "1b40c198-31d2-414a-8de9-02fdfca79163",
                 "resourcePath": "sprites\\spr_mayelcasco_caminando\\spr_mayelcasco_caminando.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "92ee3375-cce8-45e4-bf93-70af0d78ba49",
+            "Value": {
+                "id": "05f5c00f-725c-4200-acd3-4d5a79085851",
+                "resourcePath": "views\\92ee3375-cce8-45e4-bf93-70af0d78ba49.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3356,6 +3380,14 @@
                 "id": "83206934-0d5c-4e2b-9f83-508c797ed9e2",
                 "resourcePath": "scripts\\scr_data_nivel\\scr_data_nivel.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ec463ce1-6b5d-4ae2-aa80-ae959ae3e8d8",
+            "Value": {
+                "id": "8da106f9-f925-4402-b75e-8087aa16c514",
+                "resourcePath": "sprites\\spr_iluminacion\\spr_iluminacion.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

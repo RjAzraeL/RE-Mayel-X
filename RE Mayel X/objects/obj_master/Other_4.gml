@@ -62,3 +62,9 @@ if (global.zona == 6)
 	script_execute(scr_musica,mus6);
 	scr_musica(mus6);
 }
+if (global.zona == 7)
+{
+	var mus7 = audio_create_stream("Musica/mus_zona7.ogg");
+	script_execute(scr_musica,mus7);
+	scr_musica(mus7);
+}
