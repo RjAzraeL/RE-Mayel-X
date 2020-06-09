@@ -6,7 +6,8 @@
     "children": [
         "76e3e1ea-e302-4d06-a0fd-46abdab47809",
         "ada3249b-7eab-4051-b7ce-cb252cb0635e",
-        "23cead92-1849-40c0-9ead-7dfdab327f62"
+        "23cead92-1849-40c0-9ead-7dfdab327f62",
+        "a4f711cb-0578-4729-b97b-e4ab6dabb1de"
     ],
     "filterType": "GMSprite",
     "folderName": "Mayel",

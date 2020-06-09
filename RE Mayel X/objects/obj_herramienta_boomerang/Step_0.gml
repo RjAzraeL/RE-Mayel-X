@@ -21,7 +21,7 @@ image_angle += tasa;
 #endregion
 #region Regreso
 volver++;
-if (volver >= 20)
+if (volver >= 14)
 {
 	modo = 1;
 }
