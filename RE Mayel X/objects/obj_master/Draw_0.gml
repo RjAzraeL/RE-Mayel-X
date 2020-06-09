@@ -35,9 +35,10 @@ if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 		}
 	}
 }
-
+/*
 if (global.pausa == 1)
 {
+	draw_sprite(pausa,0,camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]));
 	draw_set_font(fnt_hud1);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
@@ -45,4 +46,4 @@ if (global.pausa == 1)
 	draw_text(camera_get_view_x(view_camera[0])+480,camera_get_view_y(view_camera[0])+270,"PAUSA");	
 	draw_set_color(c_white);
 	draw_text(camera_get_view_x(view_camera[0])+480,camera_get_view_y(view_camera[0])+270,"PAUSA");	
-}
+}*/

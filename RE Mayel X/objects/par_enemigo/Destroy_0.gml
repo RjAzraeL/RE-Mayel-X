@@ -10,6 +10,11 @@ if (object_index != obj_disparador_bala and object_index != obj_bolava and objec
 	{
 		scr_sonido(snd_ow);
 	}
+	if (object_index == obj_tuffie_duro or object_index == obj_tuffie_invertido_duro or object_index == obj_tuffie_disparador
+	or object_index == obj_tuffie_disparador_recto)
+	{
+		instance_create_depth(x,y,depth,obj_upgrade_casco);
+	}
 	if (direccion_arma < 0)
 	{
 		muerto . hspeed = 2;

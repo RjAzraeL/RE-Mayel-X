@@ -5,11 +5,14 @@ if (instance_number(obj_mayel) != 0)
 	{
 		if (obj_mayel.estado == "Cayendo" and obj_mayel.image_index == 0)
 		{
-			if (obj_mayel.tiene_llave > 0)
 			{
-				obj_mayel.tiene_llave--;
-				instance_destroy();
-				scr_sonido(snd_puerta_abierta);
+				if (obj_mayel.tiene_llave > 0)
+				{
+					obj_mayel.x = x+17;
+					obj_mayel.tiene_llave--;
+					instance_destroy();
+					scr_sonido(snd_puerta_abierta);
+				}
 			}
 		}
 	}

@@ -1,3 +1,4 @@
+trepar = 0;
 paso = 0;
 instance_create_depth(x,y,0,obj_camara);
 depth = -6;
@@ -11,6 +12,8 @@ sprParado = spr_mayel_parado;
 sprSaltando_medio = spr_mayel_saltando_caida;
 sprSaltando_inicio = spr_mayel_saltando_inicio;
 sprSaltando_final = spr_mayel_saltando_aterrizar;
+HerramientaMartillo = obj_herramienta_martillo;
+sprite_martilloactual = spr_herramienta_martillo;
 friccion = 0;
 friccion_valor = 5;
 friccion_tope = 1.5;
@@ -23,6 +26,8 @@ global.xop = x;
 global.yop = y;
 no_izq = 0;
 no_der = 0;
+
+
 
 if (instance_number( par_luz ) == 0)
 {
@@ -57,6 +62,16 @@ btndis1 = obj_master.btndis1;
 btndis2 = obj_master.btndis2;
 
 scr_set_mayel(tipo);
+
+if (tipo == 2)
+{
+	mask_index = spr_mascara32x30;
+}
+if (tipo == 3)
+{
+	sprite_martilloactual = spr_herramienta_martillo_blanco;
+	HerramientaMartillo = obj_herramienta_martillo_blanco;
+}
 
 //Herramientas
 martillo_tope = 50;

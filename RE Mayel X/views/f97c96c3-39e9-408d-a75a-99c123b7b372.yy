@@ -8,6 +8,8 @@
         "3f59856b-72a1-4896-9f0a-64bdec84e063",
         "90d1361c-f16a-4c4d-b9dd-32a6537e8f7f",
         "4383ce9d-4596-426b-a030-ca686a93c0cd",
+        "aa45f34e-b718-4edd-ab40-8650684ba810",
+        "835c4c61-aca6-4430-b982-33de787cac2f",
         "2da11331-d29e-4c0a-95c8-a3cf3b62fa0a",
         "2607593a-40f6-43d7-b9e1-3edf3a246ce7",
         "26ad0e62-7fb6-410b-beea-e0b3d78d2c39",
@@ -41,7 +43,8 @@
         "d4f8aab3-09a9-481e-8f8e-b91f30376ff4",
         "de0d3d52-1c44-4916-a671-4af9b0796d59",
         "292039b8-68fc-4265-8574-c9742a3ad450",
-        "ec463ce1-6b5d-4ae2-aa80-ae959ae3e8d8"
+        "ec463ce1-6b5d-4ae2-aa80-ae959ae3e8d8",
+        "57f31277-5b60-4640-9b88-61259576b793"
     ],
     "filterType": "GMSprite",
     "folderName": "Recursos y otros",

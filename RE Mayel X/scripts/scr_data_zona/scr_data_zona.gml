@@ -1,7 +1,7 @@
 #region Zonas
 var ide = 0;
 global.zonas[ide,0] = ""; //Nombre
-global.zonas[ide,1] = c_black; //Color
+global.zonas[ide,1] = c_green; //Color
 global.zonas[ide,2] = 0; //Bloqueadas
 global.zonas[ide,3] = 0; //Iluminacion
 

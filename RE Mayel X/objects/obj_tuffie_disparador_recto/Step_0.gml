@@ -12,6 +12,10 @@ if (place_meeting(x,y,par_arma))
 	{
 		direccion_arma = 1;
 	}
+	if (arma.object_index == obj_herramienta_martillo_blanco)
+	{
+		instance_destroy();
+	}
 	if (arma.object_index != obj_herramienta_boomerang)
 	{
 		instance_destroy(arma);

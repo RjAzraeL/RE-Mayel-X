@@ -46,7 +46,7 @@ if (keyboard_check(btnder) or gamepad_axis_value(valor,gp_axislh))
 		}
 	}
 }
-if (paso >= 25 and place_meeting(x,y+1,obj_bloque))
+if (paso >= 25 and place_meeting(x,y+1,obj_bloque) and x!= xprevious)
 {
 	paso = 0;
 	scr_particula_zona(28,8);
@@ -85,24 +85,63 @@ if (friccion == 1 and place_meeting(x,y+1,obj_bloque))
 }
 if (keyboard_check(btnarr) or gamepad_button_check_pressed(valor,gp_face1))
 {
-	if (place_meeting(x,y+1,obj_bloque) and (not place_meeting(x,y-1,obj_bloque)))
+	if (place_meeting(x,y+1,obj_bloque) and (not place_meeting(x,y-8,obj_bloque)))
 	{
 		scr_sonido(snd_salto);
 		vspeed = -salto;
 		fase_salto = 0;
 	}
-	if (place_meeting(x,y-1,obj_bloque) and estado == "Parado")
+}
+
+#region Trepar
+if (trepar == 1)
+{
+	if (keyboard_check_pressed(btnarr)  or (gamepad_button_check_pressed(valor,gp_face1)))
 	{
-		if (image_xscale>0)
+		if (vspeed > 0 and (!place_meeting(x,y+1,obj_bloque)))
 		{
-			x-=velocidad;
-		}
-		if (image_xscale<0)
-		{
-			x+=velocidad;
+			if (place_meeting( x-4 , y , obj_bloque ) or (place_meeting( x+4 , y , obj_bloque )))
+			{
+				scr_sonido(snd_salto);
+				vspeed = -salto;
+				fase_salto = 0;
+			}
 		}
 	}
 }
+#endregion
+
+if (keyboard_check_pressed(btnarr)  or (gamepad_button_check_pressed(valor,gp_face1)))
+{
+	if (place_meeting(x,y-8,obj_bloque) and estado == "Parado")
+	{
+		if (place_meeting(x-1,y,obj_bloque) or place_meeting(x+1,y,obj_bloque))
+		{
+			if (image_xscale>0)
+			{
+				x-=velocidad;
+			}
+			if (image_xscale<0)
+			{
+				x+=velocidad;
+			}
+		}
+	}
+}
+
+if (place_meeting(x,y,obj_impulsador))
+{
+	if (keyboard_check_pressed(btnarr) or gamepad_button_check_pressed(valor,gp_face1))
+	{
+		if (not place_meeting(x,y-1,obj_bloque))
+		{
+			scr_sonido(snd_salto);
+			vspeed = -salto;
+			fase_salto = 0;
+		}
+	}
+}
+
 #endregion
 #region Estado
 if (estado == "Parado" or estado == "Caminando" or estado == "Cayendo")
@@ -116,6 +155,7 @@ if (estado == "Parado" or estado == "Caminando" or estado == "Cayendo")
 		image_xscale = 1;
 	}
 }
+
 if (place_meeting(x,y+1,obj_bloque))
 {	
 	if (fase_salto != 2)
@@ -132,7 +172,6 @@ if (place_meeting(x,y+1,obj_bloque))
 }
 else 
 {
-	fase_salto = 1;
 	estado = "Saltando";
 }
 
@@ -173,6 +212,11 @@ if (estado =="Saltando")
 		sprite_index = sprSaltando_medio;
 		image_index = 0;
 		image_speed = 1;
+	}
+	if (sprite_index == sprSaltando_medio and image_index > 31)
+	{
+		image_speed = 1;
+		image_index = 15;
 	}
 }
 if (estado =="Cayendo")
@@ -225,7 +269,7 @@ if (keyboard_check_pressed(btndis1) or gamepad_button_check_pressed(valor,gp_fac
 	{
 		scr_sonido(snd_lanza_martillo);
 		martillo_cooldown = 0;
-		disparo = instance_create_depth(x + (image_xscale * 32),y,-5,obj_herramienta_martillo);
+		disparo = instance_create_depth(x + (image_xscale * 32),y,-5,HerramientaMartillo);
 		disparo . creador = self;
 	}
 }

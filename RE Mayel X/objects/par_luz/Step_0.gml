@@ -19,24 +19,27 @@ if ( surface_exists( superf ) )
 	}
 	with (par_enemigo)
 	{
-		draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , sprite_height + sprite_width + random_range( -1 , 1 ) , false);
+		if (object_index == obj_lava)
+		{
+			draw_sprite(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ));
+		}
 	}
-	with (obj_moneda)
+	/*with (obj_moneda)
 	{
-		draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 24 + random_range( -1 , 1 ) , false);
+		draw_sprite_ext(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ) , 0.5 , 0.5 , 0 , c_white , 1);
 	}
 	with (obj_caramelo)
 	{
-		draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 24 + random_range( -1 , 1 ) , false);
+		draw_sprite_ext(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ) , 0.5 , 0.5 , 0 , c_white , 1);
 	}
 	with (obj_gema)
 	{
-		draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 24 + random_range( -1 , 1 ) , false);
+		draw_sprite_ext(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ) , 0.5 , 0.5 , 0 , c_white , 1);
 	}
 	with (obj_llave)
 	{
-		draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 24 + random_range( -1 , 1 ) , false);
-	}
+		draw_sprite_ext(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ) , 0.5 , 0.5 , 0 , c_white , 1);
+	}*/
 	
 	//Ahora reseteame
 	gpu_set_blendmode(bm_normal);
