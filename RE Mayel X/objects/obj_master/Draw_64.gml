@@ -11,3 +11,6 @@ if (global.pausa == 1)
 	draw_text(640,512,"PAUSA");
 	draw_sprite_ext(spr_oscurecedor, 0 , 0 , 0 , room_width , room_height , 0 , c_white , 0.7);
 }
+
+draw_text(250,50,instance_number(all));
+draw_text(250,100,fps);

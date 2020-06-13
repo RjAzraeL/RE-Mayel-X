@@ -59,12 +59,12 @@ global.nivel[ide,3] = rm_n_a6; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 1; //Zona a la que pertenece
 
-var ide = 7; //INCOMPLETO
+var ide = 7;
 global.nivel[ide,0] = "1-7"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_a1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_a7; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 1; //Zona a la que pertenece
 
 var ide = 8; //INCOMPLETO
@@ -125,36 +125,36 @@ global.nivel[ide,3] = rm_n_b4; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 2; //Zona a la que pertenece
 
-var ide = 15; //INCOMPLETO
+var ide = 15;
 global.nivel[ide,0] = "2-5"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_b1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_b5; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 2; //Zona a la que pertenece
 
-var ide = 16; //INCOMPLETO
+var ide = 16; 
 global.nivel[ide,0] = "2-6"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_b1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_b6; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 2; //Zona a la que pertenece
 
-var ide = 17; //INCOMPLETO
+var ide = 17; 
 global.nivel[ide,0] = "2-7"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_b1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_b7; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 2; //Zona a la que pertenece
 
-var ide = 18; //INCOMPLETO
+var ide = 18;
 global.nivel[ide,0] = "2-8"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_b1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_b8; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 2; //Zona a la que pertenece
 
 var ide = 19; //INCOMPLETO
@@ -834,8 +834,3 @@ global.nivel[ide,5] = 10; //Zona a la que pertenece
 
 #endregion
 
-
-/*
-Monte Psicodelico
-Nevada
-Jardines Florales

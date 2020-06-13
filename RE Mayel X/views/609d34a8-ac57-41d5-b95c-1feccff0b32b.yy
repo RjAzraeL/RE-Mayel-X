@@ -9,7 +9,8 @@
         "6c2a239e-4a10-4713-8a58-847af0f56442",
         "47fd8e72-fd6c-4583-b37d-f4df41a55e98",
         "6ee148f8-bdf0-4271-86ff-36d6f0db9332",
-        "5c82bb23-61b5-4994-ad0a-681984cde942"
+        "5c82bb23-61b5-4994-ad0a-681984cde942",
+        "723942e1-939e-47f1-8904-8093ff871e9d"
     ],
     "filterType": "GMRoom",
     "folderName": "rm_zona_a",

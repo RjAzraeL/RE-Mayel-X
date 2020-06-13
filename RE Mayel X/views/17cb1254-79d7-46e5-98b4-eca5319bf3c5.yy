@@ -16,7 +16,8 @@
         "fb94c0a6-baff-468a-ab9f-1dd7c21c7b19",
         "e38a66f1-e5ec-4d0c-802a-399502a934e7",
         "b3d99e42-19d8-4966-abe0-b80e373580b7",
-        "352eb144-693d-4d11-8f08-00d81a90a56a"
+        "352eb144-693d-4d11-8f08-00d81a90a56a",
+        "5d896f48-5d9c-4c13-b61e-c5cd88a935c9"
     ],
     "filterType": "GMSprite",
     "folderName": "Animated Tiles",

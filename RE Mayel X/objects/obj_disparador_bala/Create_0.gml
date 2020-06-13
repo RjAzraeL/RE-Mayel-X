@@ -8,6 +8,7 @@ limitado = 0;
 diagonal = 0;
 inclinar = 0;
 al = 0;
+tipo = "trampa";
 if (instance_number(obj_mayel) != 0)
 {
 	if (distance_to_object(obj_mayel)<350)

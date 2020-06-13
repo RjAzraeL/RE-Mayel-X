@@ -1,28 +1,11 @@
-if (other.object_index != obj_lava)
+if (tipo == 2)
 {
-	if (tipo != 1)
+	if (other.tipo != "tuffie")
 	{
-		if (invencible == 0)
-		{
-			scr_sonido(snd_perder);
-			scr_particula(c_white);
-			obj_master.conllave = tiene_llave;
-			instance_destroy();
-		}
-	}
-	else 
-	{
-		scr_sonido(snd_golpe);
-		tipo = 0;
-		global.tipo = 0;
-		scr_set_mayel(tipo);
-		invencible = 30;
+		scr_golpe_a_mayel();
 	}
 }
-else 
+else
 {
-	scr_sonido(snd_perder);
-	scr_particula(c_white);
-	obj_master.conllave = tiene_llave;
-	instance_destroy();
+	scr_golpe_a_mayel();
 }

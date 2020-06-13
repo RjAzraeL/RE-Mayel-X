@@ -8,7 +8,7 @@ image_speed = 1;
 image_index = 0;
 carga =  0;
 depth = -100;
-
+tipo = "enemigo";
 
 Orbit = 300; // Orbit distance
 Angle = 0; // Current orbital angle

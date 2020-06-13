@@ -14,3 +14,4 @@ vida = 3;
 invencible = 0;
 tope = 100;
 actual = 0;
+tipo = "tuffie";

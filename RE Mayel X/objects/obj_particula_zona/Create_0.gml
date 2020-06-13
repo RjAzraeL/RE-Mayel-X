@@ -1,3 +1,4 @@
+
 tasa = choose(-5,5);
 direccionador = 0;
 image_speed = 0;

@@ -5,3 +5,4 @@ direccion_arma = 0;
 idbloque = noone;
 image_speed= 2;
 load = 0;
+tipo = "tuffie";

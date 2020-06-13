@@ -24,6 +24,22 @@ if ( surface_exists( superf ) )
 			draw_sprite(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ));
 		}
 	}
+	with (obj_gema)
+	{
+		//draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 72 + random_range( -1 , 1 ) , false);
+		draw_sprite(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ));
+	}
+	with (obj_caramelo)
+	{
+		//draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 72 + random_range( -1 , 1 ) , false);
+		draw_sprite(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ));
+	}
+	with (obj_disparador_bala)
+	{
+		//draw_circle(x + random_range( -1 , 1 ) , y + random_range(-1 , 1 ) , 72 + random_range( -1 , 1 ) , false);
+		draw_sprite(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ));
+	}
+	
 	/*with (obj_moneda)
 	{
 		draw_sprite_ext(spr_iluminacion,other.image_iluminacion,x+random_range( -1 , 1 ) , y + random_range( -1 , 1 ) , 0.5 , 0.5 , 0 , c_white , 1);

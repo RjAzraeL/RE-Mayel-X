@@ -5,3 +5,4 @@ image_speed = 1;
 image_index = 0;
 carga_pos = 0;
 limitado = 0;
+tipo = "trampa";

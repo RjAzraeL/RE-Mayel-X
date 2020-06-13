@@ -7,3 +7,4 @@ oculto = 1;
 subir = 0;
 depth = 300;
 y += 36;
+tipo = "tuffie";

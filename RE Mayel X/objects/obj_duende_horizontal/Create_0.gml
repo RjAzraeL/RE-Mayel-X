@@ -4,3 +4,4 @@ estirar = 0;
 direccion_arma = 0;
 idbloque = noone;
 loading  = 0;
+tipo = "enemigo";
