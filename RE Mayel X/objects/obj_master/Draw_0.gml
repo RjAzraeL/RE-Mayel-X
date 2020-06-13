@@ -4,6 +4,10 @@ camera_get_view_x(view_camera[0]);
 camera_get_view_y(view_camera[0]);
 
 */
+//var camx = camera_get_view_x(view_camera[0]);
+//var camy = camera_get_view_y(view_camera[0]);
+//draw_rectangle(camx,camy,camx+960,camy+540,true);
+
 if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 {
 	draw_sprite_ext(spr_mayel_icono,0,camera_get_view_x(view_camera[0])+48,camera_get_view_y(view_camera[0])+62,1,1,0,c_white,1);

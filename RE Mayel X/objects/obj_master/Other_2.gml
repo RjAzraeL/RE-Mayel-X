@@ -16,6 +16,7 @@ nivelactual = 0;
 mapamayelx = 480;
 mapamayely = 480;
 mapamayels = 0.5;
+global.MartilloBlanco = 0;
 global.moneda = 0;
 global.gema = 0;
 global.gema_local = 0;

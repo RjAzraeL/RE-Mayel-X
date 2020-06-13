@@ -45,7 +45,15 @@ if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 				conllave = 0;
 				global.moneda = round(global.moneda/2);
 				global.tipo = 0;
+				scr_set_mayel(global.tipo);
 				scr_particula(c_white);
+				if (tuffieon)
+				{
+					if (instance_number(obj_tuffie_tuffie) == 0)
+					{
+						instance_create_depth(xtuffie,ytuffie , 0 , obj_tuffie_tuffie);
+					}
+				}
 			}
 		}
 		if (instance_number(obj_caramelo) == 0)
@@ -96,7 +104,7 @@ if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 			ceniza = random_range(20,60);
 			repeat (8)
 			{
-				instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
+				//instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
 			}
 		}
 	}
@@ -116,7 +124,7 @@ if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 			ceniza = random_range(20,60);
 			repeat (4)
 			{
-				instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
+				//instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
 			}
 		}
 	}
@@ -136,7 +144,7 @@ if (room != rm_mapa and room != rm_pantalla_titulo and room != rm_presentacion)
 			ceniza = random_range(20,60);
 			repeat (4)
 			{
-				instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
+				//instance_create_depth(camera_get_view_x(view_camera[0])+random_range(0,960),camera_get_view_y(view_camera[0])+540,0,obj_particula_volcan);
 			}
 		}
 	}
@@ -167,3 +175,33 @@ else
 	global.gravedad = 0.4;
 }
 #endregion
+#region Popping
+if (instance_number(obj_mayel) != 0)
+{
+	x = obj_mayel.x;
+	y = obj_mayel.y;
+	var camx = camera_get_view_x(view_camera[0]);
+	var camy = camera_get_view_y(view_camera[0]);
+	instance_deactivate_region( camx , camy , 960 , 540 , false , true );
+	instance_activate_object(obj_caramelo);
+	instance_activate_object(obj_llave);
+	instance_activate_object(obj_puerta);
+	instance_activate_object(obj_disparador);
+	instance_activate_object(obj_disparador2);
+	instance_activate_object(obj_disparador_bala);
+	instance_activate_region( camx , camy , 960 , 540 , true);
+}
+else
+{
+	instance_activate_all();
+}
+#endregion
+
+
+
+/*
+
+960
+540
+
+*/

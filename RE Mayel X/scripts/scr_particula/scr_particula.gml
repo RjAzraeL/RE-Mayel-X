@@ -1,3 +1,4 @@
+argument0 = 0;
 /*angulo = 45;
 for (var i = 0 ; i < 4 ; i ++)
 {

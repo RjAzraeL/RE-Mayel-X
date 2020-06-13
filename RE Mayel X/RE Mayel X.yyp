@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "2da25bfc-8d05-40d0-a0c8-fb31f051bca8",
+            "Value": {
+                "id": "21317543-a99d-4ab2-9113-ab782fd67eef",
+                "resourcePath": "objects\\obj_tuffie_tuffie\\obj_tuffie_tuffie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2dd6a213-fcb6-46c5-ae45-7396fb0d4b27",
             "Value": {
                 "id": "d9bcfa76-5ce8-4bea-812d-fbdd2d7782cf",

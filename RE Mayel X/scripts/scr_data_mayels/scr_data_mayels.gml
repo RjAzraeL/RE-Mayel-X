@@ -31,6 +31,7 @@ global.mayel[ide,6] = spr_mayeltuffie_saltando_caida; //Sprite caida
 global.mayel[ide,7] = spr_mayeltuffie_saltando_aterrizar; //Sprite aterrizar
 global.mayel[ide,8] = 0; //Bloqueada
 
+/*
 var ide = 3;
 global.mayel[ide,0] = "Martillador"; //Nombre
 global.mayel[ide,1] = ""; //Descripcion
@@ -41,3 +42,4 @@ global.mayel[ide,5] = spr_mayel_saltando_inicio; //Sprite inicio
 global.mayel[ide,6] = spr_mayel_saltando_caida; //Sprite caida
 global.mayel[ide,7] = spr_mayel_saltando_aterrizar; //Sprite aterrizar
 global.mayel[ide,8] = 0; //Bloqueada
+*/

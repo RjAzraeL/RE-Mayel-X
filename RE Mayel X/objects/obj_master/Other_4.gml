@@ -11,6 +11,17 @@ for(var i = 0; i < numPads; i++;)
     }
 }
 
+tuffieon = false;
+xtuffie = 0;
+ytuffie = 0;
+
+if (instance_number(obj_tuffie_tuffie) != 0)
+{
+	tuffieon = true;
+	xtuffie = obj_tuffie_tuffie.x;
+	ytuffie = obj_tuffie_tuffie.y;
+}
+
 depth = -1000;
 global.gema_local = 0;
 if (room == rm_pantalla_titulo and room != rm_presentacion)

@@ -15,6 +15,10 @@ if (object_index != obj_disparador_bala and object_index != obj_bolava and objec
 	{
 		instance_create_depth(x,y,depth,obj_upgrade_casco);
 	}
+	if (object_index == obj_tuffie_tuffie)
+	{
+		instance_create_depth(x,y,depth,obj_upgrade_tuffie);
+	}
 	if (direccion_arma < 0)
 	{
 		muerto . hspeed = 2;
