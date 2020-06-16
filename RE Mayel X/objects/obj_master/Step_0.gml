@@ -175,7 +175,7 @@ else
 	global.gravedad = 0.4;
 }
 #endregion
-#region Popping
+/*#region Popping
 if (instance_number(obj_mayel) != 0)
 {
 	x = obj_mayel.x;
@@ -196,7 +196,7 @@ else
 	instance_activate_all();
 }
 #endregion
-
+*/
 
 
 /*

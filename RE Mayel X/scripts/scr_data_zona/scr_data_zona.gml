@@ -46,4 +46,22 @@ global.zonas[ide,0] = ""; //Nombre
 global.zonas[ide,1] = c_white; //Color
 global.zonas[ide,2] = 0; //Bloqueadas
 global.zonas[ide,3] = 0.4; //Iluminacion
+
+var ide = 8;
+global.zonas[ide,0] = ""; //Nombre
+global.zonas[ide,1] = c_white; //Color
+global.zonas[ide,2] = 0; //Bloqueadas
+global.zonas[ide,3] = 0.4; //Iluminacion
+
+var ide = 9;
+global.zonas[ide,0] = ""; //Nombre
+global.zonas[ide,1] = c_white; //Color
+global.zonas[ide,2] = 0; //Bloqueadas
+global.zonas[ide,3] = 0.4; //Iluminacion
+
+var ide = 10;
+global.zonas[ide,0] = ""; //Nombre
+global.zonas[ide,1] = c_red; //Color
+global.zonas[ide,2] = 0; //Bloqueadas
+global.zonas[ide,3] = 0.4; //Iluminacion
 #endregion

@@ -67,12 +67,12 @@ global.nivel[ide,3] = rm_n_a7; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 1; //Zona a la que pertenece
 
-var ide = 8; //INCOMPLETO
+var ide = 8;
 global.nivel[ide,0] = "1-8"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_a1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_a8; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 1; //Zona a la que pertenece
 
 var ide = 9; //INCOMPLETO
@@ -207,36 +207,36 @@ global.nivel[ide,3] = rm_n_c4; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 3; //Zona a la que pertenece
 
-var ide = 25; //INCOMPLETO
+var ide = 25; 
 global.nivel[ide,0] = "3-5"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_c1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_c5; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 3; //Zona a la que pertenece
 
-var ide = 26; //INCOMPLETO
+var ide = 26;
 global.nivel[ide,0] = "3-6"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_c1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_c6; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 3; //Zona a la que pertenece
 
-var ide = 27; //INCOMPLETO
+var ide = 27; 
 global.nivel[ide,0] = "3-7"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_c1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_c7; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 3; //Zona a la que pertenece
 
-var ide = 28; //INCOMPLETO
+var ide = 28;
 global.nivel[ide,0] = "3-8"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_c1; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_c8; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 3; //Zona a la que pertenece
 
 var ide = 29; //INCOMPLETO
@@ -289,36 +289,36 @@ global.nivel[ide,3] = rm_n_d4; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 4; //Zona a la que pertenece
 
-var ide = 35; //INCOMPLETO
+var ide = 35; 
 global.nivel[ide,0] = "4-5"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_d4; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_d5; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 4; //Zona a la que pertenece
 
-var ide = 36; //INCOMPLETO
+var ide = 36; 
 global.nivel[ide,0] = "4-5"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_d4; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_d6; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 4; //Zona a la que pertenece
 
-var ide = 37; //INCOMPLETO
+var ide = 37; 
 global.nivel[ide,0] = "4-5"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_d4; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_d7; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 4; //Zona a la que pertenece
 
-var ide = 38; //INCOMPLETO
+var ide = 38; 
 global.nivel[ide,0] = "4-5"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_d4; //Room del nivel
-global.nivel[ide,4] = 1; //Bloqueado
+global.nivel[ide,3] = rm_n_d8; //Room del nivel
+global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 4; //Zona a la que pertenece
 
 var ide = 39; //INCOMPLETO
@@ -752,11 +752,11 @@ global.nivel[ide,5] = 9; //Zona a la que pertenece
 #endregion
 #region Zona 10 - Tierra de las Tiniemblas de Fuego
 
-var ide = 91; //INCOMPLETO
+var ide = 91;
 global.nivel[ide,0] = "9-1"; //Nombre
 global.nivel[ide,1] = 0; //Completado
 global.nivel[ide,2] = 0; //Materizado
-global.nivel[ide,3] = rm_n_i1; //Room del nivel
+global.nivel[ide,3] = rm_n_j1; //Room del nivel
 global.nivel[ide,4] = 0; //Bloqueado
 global.nivel[ide,5] = 10; //Zona a la que pertenece
 
